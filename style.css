@@ -1286,6 +1286,7 @@ pre code {
 	margin-bottom: 3rem;
 	padding-bottom: 3rem;
 	position: relative;
+	border-bottom: 1px solid #555;
 }
 
 .post:after,.post:before {
@@ -1294,18 +1295,20 @@ pre code {
 }
 
 .post:after {
-	clear: both;
-	display: block;
-	position: absolute;
-	bottom: 0;
-	-webkit-transform: translateX(-70%);
-	transform: translateX(-70%);
-	height: .125rem;
-	background-color: #ffeccf;
-	background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019_line.png');
-	background-size: cover;
-	width: 800%;
+    clear: both;
+    display: block;
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\f083";
+    bottom: -24px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+	color: #fff;
+    background-color: #202020;
 }
+
 
 .entry-content {
 }
