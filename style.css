@@ -2914,14 +2914,7 @@ div.googlemaps iframe {
 .page header.entry-header,.postid-1114 header.entry-header,.postid-1341 header.entry-header,.postid-3305 header.entry-header,.postid-3478 header.entry-header {
 	position: relative;
 }
-.page header.entry-header::before {
-    content: "";
-    position: absolute;
-    height: 1.5rem;
-    border-top: 2px solid #fff;
-    width: 100%;
-    top: calc(50% - 1px);
-}
+
 .page h1.entry-title,.postid-1114 h1.entry-title,.postid-1341 h1.entry-title,.postid-3305 h1.entry-title,.postid-3478 h1.entry-title {
 	color: #febd59;
 	display: inline-block;
