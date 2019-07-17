@@ -144,11 +144,11 @@
 }
 
 .cc--var-color-grey-10:after {
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 }
 
 .cc--var-color-grey-10 .cc__variable:after {
-	content: "#e8f5f6";
+	content: "#ffeccf";
 }
 
 .cc--var-color-grey-20:after {
@@ -224,11 +224,11 @@
 }
 
 .cc--var-color-border-weak:after {
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 }
 
 .cc--var-color-border-weak .cc__variable:after {
-	content: "#e8f5f6";
+	content: "#ffeccf";
 }
 
 .cc--var-color-border-normal:after {
@@ -733,7 +733,7 @@ blockquote {
 	margin: 0;
 	margin-bottom: 1.5rem;
 	padding: 2em;
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 }
 
 blockquote p {
@@ -928,7 +928,7 @@ pre code {
 	position: relative;
 	display: inline-block;
 	padding: .4375rem 1rem;
-	border: 1px solid #e8f5f6;
+	border: 1px solid #ffeccf;
 	font-size: 1em;
 	line-height: 1.5625em;
 	text-align: center;
@@ -1068,7 +1068,7 @@ pre code {
 	left: 0;
 	right: 0;
 	height: 50%;
-	background-image: linear-gradient(0deg,rgba(21,152,168,.5),transparent);
+	background-image: linear-gradient(0deg,rgba(255,255,255,.5),transparent);
 	content: "";
 }
 
@@ -1182,7 +1182,7 @@ pre code {
 
 .current-menu-item>a {
 	color: hsla(0,0%,100%,.9);
-	background-color: #febd59;
+	background-color: #202020;
 }
 
 .menu-item-has-children .dropdown-toggle {
@@ -1301,7 +1301,7 @@ pre code {
 	-webkit-transform: translateX(-70%);
 	transform: translateX(-70%);
 	height: .125rem;
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 	background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019_line.png');
 	background-size: cover;
 	width: 800%;
@@ -1703,7 +1703,7 @@ article.comment-body {
 }
 
 .tix_tickets_table td,.tix_tickets_table th {
-	border-color: #e8f5f6;
+	border-color: #ffeccf;
 }
 
 .tix_tickets_table td:first-child,.tix_tickets_table th:first-child {
@@ -1829,7 +1829,7 @@ div.googlemaps iframe {
 .wcpt-schedule {
 	max-width: 100%;
 	width: 100%;
-	border: .0625rem solid #e8f5f6;
+	border: .0625rem solid #ffeccf;
 	margin-bottom: 0;
 	background-color: #fff;
 }
@@ -1840,7 +1840,7 @@ div.googlemaps iframe {
 
 .wcpt-schedule td,.wcpt-schedule th {
 	vertical-align: top;
-	border-color: #e8f5f6;
+	border-color: #ffeccf;
 }
 
 .wcpt-schedule tbody tr:first-child td,.wcpt-schedule tbody tr:first-child th {
@@ -1848,7 +1848,7 @@ div.googlemaps iframe {
 }
 
 .wcpt-schedule .wcpt-col-time,.wcpt-schedule .wcpt-col-track {
-	border-right: 1px solid #e8f5f6;
+	border-right: 1px solid #ffeccf;
 	border-top: none;
 	background-color: #1598a8;
 	color: hsla(0,0%,100%,.9);
@@ -1874,13 +1874,13 @@ div.googlemaps iframe {
 .schedule-full .wcpt-schedule .wcpt-col-track:nth-child(-n+4),.schedule-tracks .wcpt-schedule .wcpt-col-track:nth-child(-n+4) {
 	color: #fff;
 	background-color: #febd59;
-	border-right: 1px solid #e8f5f6;
+	border-right: 1px solid #ffeccf;
 }
 
 .schedule-full .wcpt-schedule .wcpt-col-track:nth-child(n+5),.schedule-tracks .wcpt-schedule .wcpt-col-track:nth-child(n+5) {
 	color: #000;
 	background-color: #bca713;
-	border-right: 1px solid #e8f5f6;
+	border-right: 1px solid #ffeccf;
 }
 
 .wcpt-schedule .wcpt-time {
@@ -1889,7 +1889,7 @@ div.googlemaps iframe {
 	font-weight: 400;
 	font-family: Lato, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	color: rgba(0,0,0,.6);
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 }
 
 .wcpt-schedule .wcpt-session-title {
@@ -1906,7 +1906,7 @@ div.googlemaps iframe {
 
 .wcpt-schedule .wcpt-session-type-custom {
 	color: rgba(0,0,0,.9);
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 }
 
 .wcpt-schedule .wcpt-session-type-custom .wcpt-session-title {
@@ -2017,7 +2017,7 @@ div.googlemaps iframe {
 	font-weight: 700;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
-	background: #e8f5f6;
+	background: #ffeccf;
 	content: "Development";
 }
 
@@ -2038,7 +2038,7 @@ div.googlemaps iframe {
 	font-weight: 700;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
-	background: #e8f5f6;
+	background: #ffeccf;
 	content: "Business";
 }
 
@@ -2059,7 +2059,7 @@ div.googlemaps iframe {
 	font-weight: 700;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
-	background: #e8f5f6;
+	background: #ffeccf;
 	content: "Community";
 }
 
@@ -2080,7 +2080,7 @@ div.googlemaps iframe {
 	font-weight: 700;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
-	background: #e8f5f6;
+	background: #ffeccf;
 	content: "Design";
 }
 
@@ -2101,7 +2101,7 @@ div.googlemaps iframe {
 	font-weight: 700;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
-	background: #e8f5f6;
+	background: #ffeccf;
 	content: "Content";
 }
 
@@ -2337,7 +2337,7 @@ div.googlemaps iframe {
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
 	padding-top: 1.5rem;
-	border-top: 1px solid #e8f5f6;
+	border-top: 1px solid #ffeccf;
 	font-size: 1em;
 	line-height: 1.5625em;
 	text-align: center;
@@ -2454,7 +2454,7 @@ div.googlemaps iframe {
 .accordion {
 	position: relative;
 	margin: .5rem 0;
-	border: .0625rem solid #e8f5f6;
+	border: .0625rem solid #ffeccf;
 	border-radius: .1875rem;
 }
 
@@ -2497,7 +2497,7 @@ div.googlemaps iframe {
 
 .accordion input[type=checkbox]:checked+label,.accordion input[type=radio]:checked+label {
 	color: #febd59;
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 	border-radius: .1875rem .1875rem 0 0;
 }
 
@@ -2532,7 +2532,7 @@ div.googlemaps iframe {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 	height: 40px;
 }
 
@@ -2629,11 +2629,11 @@ div.googlemaps iframe {
 }
 
 .widget_text {
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 }
 
 .widget_text:before {
-	background-color: #e8f5f6 !important;
+	background-color: #ffeccf !important;
 }
 
 #primary-sidebar .search-form {
@@ -2803,7 +2803,7 @@ div.googlemaps iframe {
 }
 
 #text-4:before,#text-5:before {
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 	background-size: 120px;
 	background-attachment: fixed;
 	background-position: 50% 0;
@@ -2850,7 +2850,7 @@ div.googlemaps iframe {
 
 .realistic-ticket .realistic-ticket__part-right {
 	width: 100px;
-	border-left: 10px dotted #e8f5f6;
+	border-left: 10px dotted #ffeccf;
 	margin-left: -2px;
 	background-position: 100% 0;
 	-webkit-transform-origin: 0 100%;
@@ -2909,16 +2909,21 @@ div.googlemaps iframe {
 }
 
 .page header.entry-header,.postid-1114 header.entry-header,.postid-1341 header.entry-header,.postid-3305 header.entry-header,.postid-3478 header.entry-header {
-	background: url('https://2019.europe.wordcamp.org/files/2019/02/wceu2019_page_line.png');
-	background-repeat: repeat-x;
-	background-position: 0;
+	position: relative;
 }
-
+.page header.entry-header::before {
+    content: "";
+    position: absolute;
+    height: 1.5rem;
+    border-top: 2px solid #fff;
+    width: 100%;
+    top: calc(50% - 1px);
+}
 .page h1.entry-title,.postid-1114 h1.entry-title,.postid-1341 h1.entry-title,.postid-3305 h1.entry-title,.postid-3478 h1.entry-title {
 	color: #febd59;
 	display: inline-block;
 	position: relative;
-	background: #fff;
+	background: #202020;
 	padding: 0 20px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
@@ -3024,7 +3029,7 @@ div.googlemaps iframe {
 }
 
 .page-template-page-day-of #content-widget-2:before,.page-template-page-day-of #content-widget-3:before,.page-template-page-day-of #content-widget-4:before {
-	border-top: 1px solid #e8f5f6;
+	border-top: 1px solid #ffeccf;
 }
 
 .page-template-page-day-of #content-widget-5 {
@@ -3099,7 +3104,7 @@ div.googlemaps iframe {
 	padding: 1.5rem;
 	margin-bottom: 1.5rem;
 	border: .0625rem solid transparent;
-	background-color: #e8f5f6;
+	background-color: #ffeccf;
 	border-radius: .1875rem;
 }
 
@@ -3126,7 +3131,7 @@ div.googlemaps iframe {
 .outline {
 	padding: 1.5rem;
 	margin-bottom: 1.5rem;
-	border: .0625rem solid #e8f5f6;
+	border: .0625rem solid #ffeccf;
 	border-radius: .1875rem;
 }
 
@@ -3219,7 +3224,7 @@ div.googlemaps iframe {
 .wp-block-gallery .blocks-gallery-image figcaption,.wp-block-gallery .blocks-gallery-item figcaption {
 	padding: 5px !important;
 	color: #febd59 !important;
-	background: #e8f5f6 !important;
+	background: #ffeccf !important;
 }
 
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots),hr:not(.is-style-wide):not(.is-style-dots) {
@@ -3830,7 +3835,7 @@ img.emoji,img.wp-smiley {
 	font-weight: 700;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
-	background: #e8f5f6;
+	background: #ffeccf;
 	display: inline-block;
 	width: initial;
 	bottom: .5em;
@@ -3847,7 +3852,7 @@ img.emoji,img.wp-smiley {
 }
 
 .page-template-day-of-event .wordcamp-schedule-session {
-	border: 1px solid #e8f5f6;
+	border: 1px solid #ffeccf;
 	border-left: none;
 	border-bottom: none;
 }
@@ -3857,7 +3862,7 @@ img.emoji,img.wp-smiley {
 }
 
 .page-template-day-of-event section:first-of-type .wordcamp-schedule-session.session:last-child {
-	border-bottom: 1px solid #e8f5f6;
+	border-bottom: 1px solid #ffeccf;
 }
 
 
@@ -3920,13 +3925,13 @@ img.emoji,img.wp-smiley {
 }
 
 .pwa-page-content {
-	border: 1px solid #e8f5f6;
+	border: 1px solid #ffeccf;
 }
 
 .pwa-page-content h3 {
 	background: #0094a8;
 	color: #fff;
-	border-bottom: 1px solid #e8f5f6;
+	border-bottom: 1px solid #ffeccf;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.5rem;
@@ -3934,11 +3939,11 @@ img.emoji,img.wp-smiley {
 }
 
 .wordcamp-schedule-session {
-	border-bottom: 1px solid #e8f5f6;
+	border-bottom: 1px solid #ffeccf;
 }
 
 .wordcamp-schedule-session.custom {
-	background: #e8f5f6;
+	background: #ffeccf;
 }
 
 .wordcamp-schedule-session.session .wordcamp-schedule-session-title {
@@ -4008,7 +4013,7 @@ img.emoji,img.wp-smiley {
 }
 
 .wordcamp-latest-post {
-	background: #e8f5f6;
+	background: #ffeccf;
 }
 
 .wordcamp-latest-post .wordcamp-latest-post-title {
@@ -4516,7 +4521,7 @@ img.emoji,img.wp-smiley {
 	.schedule-scroll {
 		position: relative;
 		overflow-x: auto;
-		border-right: 1px solid #e8f5f6;
+		border-right: 1px solid #ffeccf;
 	}
 
 	.menu-item {
@@ -4926,7 +4931,7 @@ img.emoji,img.wp-smiley {
 	.wcpt-schedule tr {
 		margin-bottom: 1rem;
 		display: block;
-		border: 1px solid #e8f5f6;
+		border: 1px solid #ffeccf;
 	}
 	
 	.wcpt-schedule .wcpt-session-type-session:before {
@@ -4942,7 +4947,7 @@ img.emoji,img.wp-smiley {
 	
 	.wcpt-schedule .wcb-track-main-track:before,.wcpt-schedule .wcb-track-track-2:before,.wcpt-schedule .wcb-track-track-3:before,.wcpt-schedule .wcb-track-workshop-1:before,.wcpt-schedule .wcb-track-workshop-2:before,.wcpt-schedule .wcb-track-workshop-3:before {
 		color: rgba(0,0,0,.75);
-		background-color: #e8f5f6;
+		background-color: #ffeccf;
 		text-transform: uppercase;
 		font-weight: 700;
 	}
