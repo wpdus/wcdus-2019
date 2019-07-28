@@ -548,7 +548,7 @@ body {
 	font-feature-settings: liga;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	body {
 		font-size: 1.125em;
 	}
@@ -716,7 +716,7 @@ p {
 	color: #4a4a4a;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	p {
 		line-height: 1.5625em;
 	}
@@ -929,7 +929,7 @@ pre code {
 	font-feature-settings: normal;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.cc {
 		width: 47.36842%;
 		float: left;
@@ -1072,7 +1072,7 @@ pre code {
 	text-align: center;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.site-header .site-branding {
 		padding: 3rem 2rem;
 	}
@@ -1088,7 +1088,7 @@ pre code {
 	padding: 3.5rem 1rem;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.home .site-header .site-branding {
 		padding: 7rem 2rem;
 	}
@@ -1216,7 +1216,7 @@ pre code {
 	border-bottom-color: hsla(0,0%,100%,.9);
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.menu-toggle {
 		display: none;
 	}
@@ -1258,7 +1258,7 @@ pre code {
 	clear: both;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.menu {
 		display: block;
 	}
@@ -1286,7 +1286,7 @@ pre code {
 	text-transform: uppercase;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.menu-item {
 		margin: 0 .0625rem;
 		display: inline-block;
@@ -1338,7 +1338,7 @@ pre code {
 	display: none;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.menu-item-has-children {
 		background-color: transparent;
 	}
@@ -1411,7 +1411,7 @@ pre code {
 	}
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.sub-menu {
 		position: absolute;
 		top: 100%;
@@ -1746,7 +1746,7 @@ pre code {
 	width: 100%;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	#tix-attendees .tix-columns-3 li {
 		width: 50%;
 	}
@@ -2664,7 +2664,7 @@ div.googlemaps iframe {
 	}
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.wcorg-speaker {
 		width: 32%;
 		margin-left: 2%;
@@ -2729,7 +2729,7 @@ div.googlemaps iframe {
 	margin-bottom: .5rem;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.wcb_speaker .entry-content {
 		padding-left: 7.5rem;
 	}
@@ -2753,7 +2753,7 @@ div.googlemaps iframe {
 	margin: 0;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.wcb_speaker .speaker-avatar {
 		margin-right: 0;
 		margin-left: -7.5rem;
@@ -2865,7 +2865,7 @@ div.googlemaps iframe {
 	width: 100%;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.wcorg-sponsor-level-administrator .wcorg-sponsor,.wcorg-sponsor-level-event-after-party .wcorg-sponsor,.wcorg-sponsor-level-event-speakers-dinner .wcorg-sponsor,.wcorg-sponsor-level-super-admin .wcorg-sponsor {
 		width: 50%;
 	}
@@ -3205,7 +3205,7 @@ div.googlemaps iframe {
 	margin-bottom: .5rem;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.jetpack_subscription_widget #subscribe-email {
 		margin-bottom: 0;
 		margin-right: 2%;
@@ -3248,7 +3248,7 @@ div.googlemaps iframe {
 	}
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.list-social li {
 		width: 30%;
 		min-width: 12.5rem;
@@ -3523,7 +3523,7 @@ div.googlemaps iframe {
 	padding: 2rem 1rem;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.page-template-page-day-of #content-widget-1 .widget:first-child {
 		padding: 4rem 2rem;
 	}
@@ -3981,7 +3981,7 @@ img.emoji,img.wp-smiley {
 	background-color: #fff4e6;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.kss-sidebar {
 		padding: 2rem;
 	}
@@ -4014,7 +4014,7 @@ img.emoji,img.wp-smiley {
 	background-color: #fff;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.kss-section {
 		padding: 2rem;
 	}
@@ -4057,7 +4057,7 @@ img.emoji,img.wp-smiley {
 	text-transform: none;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.kss-section .kss-title {
 		font-size: 20px;
 		font-size: 1.25rem;
@@ -4166,7 +4166,7 @@ img.emoji,img.wp-smiley {
 	color: #444;
 }
 
-@media (min-width:37.5em) {
+@media (min-width:36em) {
 	.kss-style>p,.kss-style>ul li {
 		font-size: 18px;
 		font-size: 1.125rem;
