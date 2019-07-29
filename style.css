@@ -391,8 +391,8 @@
 	--text-invert-color: #000000;
 	--body-color: #343434;
 	--body-invert-color: #ffffff;
-	--accent-color: #FFBD59;
-	--accent-color-dark: #FB6C31;
+	--accent-color: #ffbd59;
+	--accent-color-dark: #fb6c31;
   }
 
 html {
@@ -553,7 +553,7 @@ html {
 body {
 	font-size: 1em;
 	line-height: 1.5625em;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #4a4a4a;
 	background: #fff;
 	font-feature-settings: liga;
@@ -578,7 +578,7 @@ body {
 h1,h2,h3,h4 {
 	margin-top: 3rem;
 	margin-bottom: .5rem;
-	font-family: Playfair Display, serif;
+	font-family: Roboto, sans-serif;
 	font-weight: 700;
 	line-height: 1.25em;
 }
@@ -651,7 +651,7 @@ input:not([type]),input[type=color],input[type=date],input[type=datetime-local],
 	padding: .4375rem 1rem;
 	margin: 0;
 	border: 1px solid #c9c9c9;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	line-height: 1.5625em;
 	color: #4a4a4a;
@@ -693,7 +693,7 @@ select {
 	width: 100%;
 	padding: .4375rem 1rem;
 	border: 1px solid #c9c9c9;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	line-height: 1.5625em;
 	font-weight: 700;
@@ -1028,7 +1028,7 @@ pre code {
 	letter-spacing: .1em;
 	text-align: center;
 	color: #fff;
-	font-family: Roboto, sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1115,7 +1115,7 @@ pre code {
 	margin: 0;
 	font-size: 1.5625em;
 	line-height: 1;
-	font-family: Playfair Display, serif;
+	font-family: Roboto, sans-serif;
 	font-weight: 400;
 	color: #fff;
 }
@@ -1146,7 +1146,7 @@ pre code {
 .site-description {
 	margin: 0;
 	margin-top: .5rem;
-	font-family: Playfair Display, serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1em;
 	line-height: 1.25em;
 	font-weight: 400;
@@ -1396,7 +1396,7 @@ pre code {
 .sub-menu .menu-item {
 	text-transform: none;
 	font-weight: 400;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width:37.4375em) {
@@ -1723,7 +1723,7 @@ pre code {
 
 .wcorg-organizer h2 {
 	font-size: 1rem;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 }
 
@@ -1938,7 +1938,7 @@ article.comment-body {
 	font-size: .8em;
 	line-height: 1.5625em;
 	text-transform: uppercase;
-	font-family: Playfair Display, serif;
+	font-family: Roboto, sans-serif;
 }
 
 .comment-form p {
@@ -1957,7 +1957,7 @@ article.comment-body {
 .comment-form .comment-subscription-form label {
 	font-size: .8em;
 	line-height: 1.5625em;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-transform: none;
 }
 
@@ -2250,7 +2250,7 @@ div.googlemaps iframe {
 	font-size: 1em;
 	line-height: 1.25em;
 	font-weight: 400;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: rgba(0,0,0,.5);
 	background-color: #ededed;
 }
@@ -3373,7 +3373,7 @@ div.googlemaps iframe {
 	margin: 0 auto;
 	font-size: 16px;
 	line-height: 20px;
-	font-family: Playfair Display, serif;
+	font-family: Roboto, sans-serif;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
@@ -3425,7 +3425,7 @@ div.googlemaps iframe {
 	left: 0;
 	right: 0;
 	bottom: 50%;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: hsla(0,0%,100%,.9);
 }
 
@@ -3435,7 +3435,7 @@ div.googlemaps iframe {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: hsla(0,0%,100%,.9);
 }
 
@@ -3597,7 +3597,7 @@ div.googlemaps iframe {
 .nav-anchor li {
 	display: inline-block;
 	margin: .125rem;
-	font-family: Playfair Display, serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1em;
 	line-height: 1.25em;
 	font-weight: 700;
@@ -3792,7 +3792,7 @@ div.googlemaps iframe {
 	line-height: 1.5em;
 	letter-spacing: 0;
 	text-transform: uppercase;
-	font-family: Roboto, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	white-space: nowrap;
 }
 
