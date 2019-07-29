@@ -1464,7 +1464,8 @@ pre code {
 	margin-top: 3rem;
 	padding: 3rem 1rem;
 	text-align: center;
-	border-top: 10px solid var(--accent-color);
+	border-top: 10px solid;
+	border-top-color: var(--accent-color);
 }
 
 .site-footer a {
