@@ -1318,10 +1318,6 @@ pre code {
 	transition: all .1s ease;
 }
 
-.home .menu-item a {
-	color: hsla(0,0%,100%,.9);
-}
-
 @media (min-width:48em) {
 	.menu-item a {
 		border-bottom: 1px solid transparent;
@@ -1468,6 +1464,7 @@ pre code {
 	margin-top: 3rem;
 	padding: 3rem 1rem;
 	text-align: center;
+	border-top: 10px solid var(--accent-color);
 }
 
 .site-footer a {
@@ -1577,7 +1574,6 @@ pre code {
 .post,.type-page {
 	margin-bottom: 3rem;
 	padding-bottom: 3rem;
-	border-bottom: 2px solid #ededed;
 	position: relative;
 	max-width: 600px;
 	margin-left: auto;
