@@ -1173,6 +1173,19 @@ pre code {
 .site-header {
 	position: relative;
 }
+/* header in homepage */
+.home .site-header {
+	background-color: #4a4a4a;
+	background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/header-bg_mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+@media (min-width: 62em) {
+	.home .site-header {
+		background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/header-bg-desktop.jpg');
+	}	
+}
 .site-header>* {
 	position: relative;
 	z-index: 200;
@@ -1184,20 +1197,6 @@ pre code {
 .home .custom-header {
 	display: block;
 }
-/* header in homepage */
-.home .custom-header {
-	background-color: #4a4a4a;
-	background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/header-bg_mobile.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center top;
-}
-@media (min-width: 62em) {
-	.home .custom-header {
-		background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/header-bg-desktop.jpg');
-	}	
-}
-
 .menu-toggle {
 	padding: 1rem;
 	margin: 0;
