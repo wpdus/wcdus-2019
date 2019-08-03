@@ -1,4 +1,3 @@
-
 .cc--var-color-brand-primary:after {
 	background-color: #6cbcbd;
 }
@@ -384,7 +383,6 @@
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
 /* color declaration */
 :root {
 	--text-color: #ffffff;
@@ -392,8 +390,8 @@
 	--body-color: #343434;
 	--body-invert-color: #ffffff;
 	--accent-color: #ffbd59;
-	--accent-color-dark: #fb6c31;
-  }
+	--accent-color-dark: #fb6c31;	
+}
 
 html {
 	line-height: 1.15;
@@ -1095,22 +1093,36 @@ pre code {
 	}
 }
 
+/* define height for header background in homepage */
 .home .site-header .site-branding {
-	padding: 3.5rem 1rem;
+	padding: 2rem 0;
 }
 
 @media (min-width:36em) {
 	.home .site-header .site-branding {
-		padding: 7rem 2rem;
+		padding: 4rem 2rem;
 	}
 }
-
 @media (min-width:48em) {
 	.home .site-header .site-branding {
-		padding: 10.5rem 3rem;
+		padding: 7.5rem 3rem;
 	}
 }
-
+@media (min-width:62em) {
+	.home .site-header .site-branding {
+		padding: 11.5rem 3rem;
+	}
+}
+@media (min-width:80em) {
+	.home .site-header .site-branding {
+		padding: 12.5rem 3rem;
+	}
+}
+@media (min-width:100em) {
+	.home .site-header .site-branding {
+		padding: 13.5rem 3rem;
+	}
+}
 .site-title {
 	margin: 0;
 	font-size: 1.5625em;
@@ -1134,6 +1146,7 @@ pre code {
 	display: inline;
 	margin: auto;
 }
+
 .site-title a:before {
 	display: block;
 	margin-left: auto;
@@ -1160,13 +1173,6 @@ pre code {
 .site-header {
 	position: relative;
 }
-
-.home .site-header {
-	background-color: #4a4a4a;
-	background: url('https://2019.dusseldorf.wordcamp.org/files/2019/07/header-bg-1.jpg') no-repeat;
-	background-size: contain;
-}
-
 .site-header>* {
 	position: relative;
 	z-index: 200;
@@ -1175,9 +1181,21 @@ pre code {
 .custom-header {
 	display: none;
 }
-
 .home .custom-header {
 	display: block;
+}
+/* header in homepage */
+.home .custom-header {
+	background-color: #4a4a4a;
+	background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/header-bg_mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+@media (min-width: 62em) {
+	.home .custom-header {
+		background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/header-bg-desktop.jpg');
+	}	
 }
 
 .menu-toggle {
@@ -1467,7 +1485,7 @@ pre code {
 	background-color: var(--body-invert-color);
 	color: var(--text-invert-color);
 	margin-top: 3rem;
-	padding: 2rem 0.5rem;
+	padding: 2rem .5rem;
 	text-align: center;
 	border-top: 10px solid;
 	border-top-color: var(--accent-color);
@@ -1619,7 +1637,12 @@ pre code {
 	line-height: 1.25em;
 	margin-bottom: 1.5rem;
 }
-
+.home .entry-title {
+	position: absolute;
+	text-indent: -100%;
+	overflow: hidden;
+	height: 0;
+}
 .entry-title a {
 	color: #4a4a4a;
 	text-decoration: none;
@@ -3098,7 +3121,7 @@ div.googlemaps iframe {
 
 .home #content-widget-2 .widget {
 	background-color: #4a4a4a;
-	background-image: url('');
+	background-image: ;
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-bottom: 0;
@@ -3106,11 +3129,11 @@ div.googlemaps iframe {
 }
 
 .home #content-widget-2 .widget:nth-of-type(2) {
-	background-image: url('');
+	background-image: ;
 }
 
 .home #content-widget-2 .widget:nth-of-type(3) {
-	background-image: url('');
+	background-image: ;
 }
 
 .home #content-widget-2 .callout {
