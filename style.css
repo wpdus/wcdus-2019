@@ -1782,7 +1782,7 @@ pre code {
 	display: grid;
 	grid-template-columns: minmax(1em,1fr) repeat(3,15em) minmax(1em,1fr);
 	grid-template-areas: '. wp-block-column-1 wp-block-column-2 wp-block-column-3 .';
-	background-image: url(dots-mini-light.png);
+	background-image: url(https://2019.dusseldorf.wordcamp.org/files/2019/08/dots-mini-light.png);
 	background-repeat: repeat;
 	align-items: start;
 	max-width: none;
