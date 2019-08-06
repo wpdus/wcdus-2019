@@ -2937,7 +2937,7 @@ div.googlemaps iframe {
 
 .wcorg-sponsors > div h2 {
     width: 100%;
-    margin-top: 1.5rem;
+    margin-top: 0;
     margin-bottom: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid #ededed;
@@ -2950,7 +2950,7 @@ div.googlemaps iframe {
     grid-row: 1;
 }
 @media (min-width:48em) {
-	.wcorg-sponsors>div h2 {
+	.wcorg-sponsors > div h2 {
 		padding-top: 0;
 		border-top: none;
 	}
@@ -2966,10 +2966,10 @@ div.googlemaps iframe {
 		content: "";
 		z-index: -1;
 	}
-	.wcorg-sponsor-level-gold > h2::after, .wcorg-sponsor-level-gold > h2::before {
+	.wcorg-sponsors > .wcorg-sponsor-level-gold h2::before {
 		border-color: #ffbd59;
 	}
-	.wcorg-sponsor-level-silber > h2::after, .wcorg-sponsor-level-silber > h2::before {
+	.wcorg-sponsors > .wcorg-sponsor-level-silber h2::before {
 		border-color: #c8d1d8;
 	}
 	
