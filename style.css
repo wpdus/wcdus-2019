@@ -2974,6 +2974,10 @@ div.googlemaps iframe {
 		padding-top: 0;
 		border-top: none;
 	}
+	.home .wcorg-sponsors > div h2 {
+		padding-top: 0;
+		border-top: none;
+	}
 	
 	.wcorg-sponsors>div h2:after,.wcorg-sponsors>div h2:before {
 		position: absolute;
@@ -2987,15 +2991,7 @@ div.googlemaps iframe {
 		z-index: -1;
 	}
 	.home .wcorg-sponsors>div h2:after,.wcorg-sponsors>div h2:before {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		width: 100%;
-		-webkit-transform: translateX(-50%);
-		transform: translateX(-50%);
 		border-top: 4px solid #ededed;
-		content: "";
-		z-index: -1;
 	}
 	.home .wcorg-sponsors > .wcorg-sponsor-level-gold h2::before {
 		border-color: #ffbd59;
@@ -3009,6 +3005,10 @@ div.googlemaps iframe {
 		width: 16em;
 		z-index: -1;
 	}
+	.home .wcorg-sponsors>div h2:after {
+		border-color: #fff;
+	}
+
 }
 .wcorg-sponsor {
 	margin-bottom: 0;
