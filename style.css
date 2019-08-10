@@ -569,7 +569,7 @@ body {
 
 h1,h2,h3,h4 {
 	margin-top: 3rem;
-	margin-bottom: .7rem;
+	margin-bottom: 1.2em;
 	font-family: 'Lora', serif;
 	font-weight: 700;
 	line-height: 1.25em;
@@ -592,7 +592,7 @@ h1,h2 {
 }
 
 h2 {
-	font-size: 1.95312em;
+	font-size: 2em;
 }
 
 h3 {
@@ -1024,7 +1024,7 @@ pre code {
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: uppercase;
-	background-color: #ffbd59;
+	background-color: #638C37;
 	border-color: transparent;
 	box-shadow: none !important;
 	cursor: pointer;
@@ -1033,7 +1033,7 @@ pre code {
 
 .button:active,.button:focus,.button:hover,button:active,button:focus,button:hover,input[type=button]:active,input[type=button]:focus,input[type=button]:hover,input[type=reset]:active,input[type=reset]:focus,input[type=reset]:hover,input[type=submit]:active,input[type=submit]:focus,input[type=submit]:hover {
 	color: #fff;
-	background-color: #fb6c31 !important;
+	background-color: #638C37 !important;
 	text-decoration: none;
 	box-shadow: none !important;
 }
@@ -1045,12 +1045,12 @@ pre code {
 
 .button.button--secondary,button.button--secondary,input[type=button].button--secondary,input[type=reset].button--secondary,input[type=submit].button--secondary {
 	color: #fff;
-	background-color: #f95758;
+	background-color: #638C37;
 }
 
 .button.button--secondary:active,.button.button--secondary:focus,.button.button--secondary:hover,button.button--secondary:active,button.button--secondary:focus,button.button--secondary:hover,input[type=button].button--secondary:active,input[type=button].button--secondary:focus,input[type=button].button--secondary:hover,input[type=reset].button--secondary:active,input[type=reset].button--secondary:focus,input[type=reset].button--secondary:hover,input[type=submit].button--secondary:active,input[type=submit].button--secondary:focus,input[type=submit].button--secondary:hover {
 	color: #fff;
-	background-color: #e04e4f;
+	background-color: #638C37;
 }
 
 .button.button--invert,button.button--invert,input[type=button].button--invert,input[type=reset].button--invert,input[type=submit].button--invert {
@@ -1144,7 +1144,9 @@ pre code {
 .custom-logo {
 	display: inline;
 	margin: auto;
+	margin-bottom: 9em;
 }
+
 .site-title {
     position: absolute;
     clip: rect( 1px, 1px, 1px, 1px );
@@ -1262,8 +1264,9 @@ pre code {
 
 .main-navigation,.secondary-navigation {
 	position: relative;
-	background-color: #343434;
+	background-color: #fff;
 	z-index: 202;
+	border-bottom: #787878 solid;
 }
 
 @media (max-width:36em) {
@@ -1352,14 +1355,13 @@ pre code {
 .menu-item a {
 	display: block;
 	padding: .5rem 1em;
-	color: hsla(0,0%,100%,.9);
+	color: #000;
 	text-decoration: none;
 	transition: all .1s ease;
 }
 
 .menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
-	color: hsla(0,0%,100%,.9);
-	background-color: #fb6c31;
+	color: #638C37;
 }
 
 @media (min-width:36em) {
@@ -1413,13 +1415,12 @@ pre code {
 }
 
 .current-menu-item > a {
-	color: hsla(0,0%,100%,.9);
-	background-color: #fb6c31;
+	color: #8E3BA8;
 }
 
 @media (min-width: 36em) {
 	.current-menu-item > a {
-		color: #fb6c31;
+		color: #8E3BA8;
 		background-color: transparent;
 	}	
 }
@@ -1554,11 +1555,10 @@ pre code {
 .site-footer {
 	background-color: var(--body-invert-color);
 	color: var(--text-invert-color);
-	margin-top: 3rem;
-	padding: 2rem .5rem;
+	margin-top: 2em;
+	padding: 1em .5em;
 	text-align: center;
-	border-top: 10px solid;
-	border-top-color: #ffbd59;
+	border-top: #000 solid;
 }
 
 .site-footer a {
