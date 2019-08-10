@@ -1136,9 +1136,13 @@ pre code {
 .custom-logo {
 	display: inline;
 	margin: auto;
-	margin-bottom: 9em;
+	margin-bottom: 1em;
 }
-
+@media (min-width:36em) {
+	.custom-logo {
+		margin-bottom: 9em;
+	}
+}
 .site-title {
     position: absolute;
     clip: rect( 1px, 1px, 1px, 1px );
@@ -1175,23 +1179,25 @@ pre code {
 	z-index: 200;
 }
 
+/* header in homepage */
 .custom-header {
 	display: none;
 }
 
 .home .custom-header {
 	display: block;
-}
-
-/* header in homepage */
-.home .custom-header {
 	background-color: #fff;
-	background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/duesseldorf-night.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 30%;
 }
 
+@media (min-width:36em) {
+	.home .custom-header {
+		background-color: #fff;
+		background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/duesseldorf-night.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center 30%;
+	}
+}
 @media (min-width: 62em) {
 	.home .custom-header {
 		background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/duesseldorf-night.png');
