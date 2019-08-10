@@ -384,14 +384,6 @@
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* color declaration */
-:root {
-	--text-color: #ffffff;
-	--text-invert-color: #000000;
-	--body-color: #343434;
-	--body-invert-color: #ffffff;
-	--accent-color: #ffbd59;
-	--accent-color-dark: #fb6c31;	
-}
 
 html {
 	line-height: 1.15;
@@ -559,12 +551,12 @@ body {
 
 ::-moz-selection {
 	color: #fff;
-	background-color: #ffbd59;
+	background-color: #015CB9;
 }
 
 ::selection {
 	color: #fff;
-	background-color: #ffbd59;
+	background-color: #015CB9;
 }
 
 h1,h2,h3,h4 {
@@ -663,8 +655,8 @@ input:not([type]):hover,input[type=color]:hover,input[type=date]:hover,input[typ
 input:not([type]):focus,input[type=color]:focus,input[type=date]:focus,input[type=datetime-local]:focus,input[type=datetime]:focus,input[type=email]:focus,input[type=month]:focus,input[type=number]:focus,input[type=password]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=text]:focus,input[type=time]:focus,input[type=url]:focus,input[type=week]:focus,textarea:focus {
 	outline: none;
 	color: rgba(0,0,0,.9);
-	border-color: #ffbd59;
-	box-shadow: 0 0 0 .125em #ffbd59;
+	border-color: #4a4a4a;
+	box-shadow: 0 0 0 .125em #4a4a4a;
 }
 
 textarea {
@@ -1019,12 +1011,12 @@ pre code {
 	line-height: 1.5625em;
 	letter-spacing: .1em;
 	text-align: center;
-	color: #fff;
+	color: #4a4a4a;
 	font-family: Roboto, sans-serif !important;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: uppercase;
-	background-color: #638C37;
+	background-color: #C9D8B9;
 	border-color: transparent;
 	box-shadow: none !important;
 	cursor: pointer;
@@ -1044,8 +1036,8 @@ pre code {
 }
 
 .button.button--secondary,button.button--secondary,input[type=button].button--secondary,input[type=reset].button--secondary,input[type=submit].button--secondary {
-	color: #fff;
-	background-color: #638C37;
+	color: #4a4a4a;
+	background-color: #C9D8B9;
 }
 
 .button.button--secondary:active,.button.button--secondary:focus,.button.button--secondary:hover,button.button--secondary:active,button.button--secondary:focus,button.button--secondary:hover,input[type=button].button--secondary:active,input[type=button].button--secondary:focus,input[type=button].button--secondary:hover,input[type=reset].button--secondary:active,input[type=reset].button--secondary:focus,input[type=reset].button--secondary:hover,input[type=submit].button--secondary:active,input[type=submit].button--secondary:focus,input[type=submit].button--secondary:hover {
@@ -1372,7 +1364,7 @@ pre code {
 		line-height: 1.3;
 	}
 	.menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
-		color: #fb6c31;
+		color: 638C37;
 		background: transparent;
 	}	
 }	
@@ -1406,7 +1398,7 @@ pre code {
 		content: "";
 	}
 	.menu-item-has-children a.focus::after, .menu-item-has-children a:active::after, .menu-item-has-children a:focus::after, .menu-item-has-children a:hover::after {
-			border-top-color: #fb6c31;
+			border-top-color: 638C37;
 	}	
 	.menu-item-has-children>a .dropdown-toggle {
 		display: inline-block;
@@ -1433,7 +1425,7 @@ pre code {
 
 .sub-menu li.focus > a,.sub-menu li:hover > a {
 	color: hsla(0,0%,100%,.9);
-	background-color: #fb6c31;
+	background-color: 638C37;
 }
 
 .sub-menu a {
@@ -1460,7 +1452,7 @@ pre code {
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
-    border-top: 4px solid #fb6c31;
+    border-top: 4px solid 638C37;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 	}
@@ -1480,7 +1472,7 @@ pre code {
 		width: 0;
 		height: 0;
 		border: 5px solid transparent;
-		border-bottom: 6px solid #fb6c31;
+		border-bottom: 6px solid 638C37;
 	}	
 	.menu-item-has-children.focus.menu-item:last-of-type >.sub-menu::before,.menu-item-has-children:hover.menu-item:last-of-type >.sub-menu::before {
 		right: 1.5em;
@@ -1516,7 +1508,7 @@ pre code {
 	
 	.sub-menu li.focus > a,.sub-menu li:hover > a {
 		color: hsla(0,0%,0%,.9);
-		background-color: #fb6c31;
+		background-color: 638C37;
 	}
 	
 	.sub-menu a:before {
