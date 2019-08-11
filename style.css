@@ -1058,6 +1058,34 @@ pre code {
 	color: rgba(0,0,0,.3) !important;
 	background-color: #eee !important;
 }
+/* HEADER */
+
+.site-header {
+	position: relative;
+}
+
+.site-header>* {
+	position: relative;
+	z-index: 200;
+}
+
+.custom-header {
+	display: block;
+}
+
+.home .custom-header {
+	
+}
+
+@media (min-width:36em) {
+	.home .custom-header {
+		background-color: #fff;
+		background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/duesseldorf-night.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center 30%;
+	}
+}
 
 .site-header .site-branding {
 	position: relative;
@@ -1078,7 +1106,6 @@ pre code {
 	}
 }
 
-/* define height for header background in homepage */
 .home .site-header .site-branding {
 	padding: 2rem 0;
 }
@@ -1120,33 +1147,12 @@ pre code {
 	font-family: 'Lora', serif;
 	font-weight: 400;
 	color: #fff;
+	position: absolute;
+	clip: rect(1px,1px,1px,1px);
 }
 
 .site-title a {
 	display: block;
-}
-
-.site-title a,.site-title a:active,.site-title a:focus,.site-title a:hover {
-	color: #fff;
-	text-decoration: none;
-}
-
-/* Logo */
-.custom-logo {
-	display: inline;
-	margin: auto;
-	margin-bottom: 1em;
-}
-
-@media (min-width:36em) {
-	.custom-logo {
-		margin-bottom: 9em;
-	}
-}
-
-.site-title {
-	position: absolute;
-	clip: rect(1px,1px,1px,1px);
 }
 
 .site-title a:before {
@@ -1161,6 +1167,11 @@ pre code {
 	content: "";
 }
 
+.site-title a,.site-title a:active,.site-title a:focus,.site-title a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
 .site-description {
 	margin: 0;
 	margin-top: .5rem;
@@ -1172,40 +1183,20 @@ pre code {
 	color: #343434;
 }
 
-.site-header {
-	position: relative;
-}
-
-.site-header>* {
-	position: relative;
-	z-index: 200;
-}
-
-/* header in homepage */
-.custom-header {
-	display: none;
-}
-
-.home .custom-header {
-	display: block;
-	background-color: #fff;
+/* Logo */
+.custom-logo {
+	display: inline;
+	margin: auto;
+	margin-bottom: 1em;
 }
 
 @media (min-width:36em) {
-	.home .custom-header {
-		background-color: #fff;
-		background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/duesseldorf-night.png');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center 30%;
+	.home .custom-logo {
+		margin-bottom: 9em;
 	}
 }
 
-@media (min-width: 62em) {
-	.home .custom-header {
-		background-image: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/duesseldorf-night.png');
-	}
-}
+
 
 .menu-toggle {
 	padding: 1rem;
