@@ -1,0 +1,384 @@
+.cc--var-color-brand-primary {
+	&:after {
+		background-color: $color_neptune_approx;
+	}
+	.cc__variable:after {
+		content: "$color_neptune_approx";
+	}
+}
+.cc--var-color-brand-secondary {
+	&:after {
+		background-color: $color_carnation_approx;
+	}
+	.cc__variable:after {
+		content: "$color_carnation_approx";
+	}
+}
+.cc--var-color-brand-tertiary {
+	&:after {
+		background-color: $color_golden_dream_approx;
+	}
+	.cc__variable:after {
+		content: "$color_golden_dream_approx";
+	}
+}
+.cc--var-color-brand-quaternary {
+	&:after {
+		background-color: $color_gravel_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gravel_approx";
+	}
+}
+.cc--var-color-text {
+	&:after {
+		background-color: $color_gravel_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gravel_approx";
+	}
+}
+.cc--var-color-text-weak {
+	&:after {
+		background-color: $black_50;
+	}
+	.cc__variable:after {
+		content: "$black_50";
+	}
+}
+.cc--var-color-text-strong {
+	&:after {
+		background-color: $black_90;
+	}
+	.cc__variable:after {
+		content: "$black_90";
+	}
+}
+.cc--var-color-text-invert {
+	&:after {
+		background-color: $white_75;
+	}
+	.cc__variable:after {
+		content: "$white_75";
+	}
+}
+.cc--var-color-text-weak-invert {
+	&:after {
+		background-color: $white_60;
+	}
+	.cc__variable:after {
+		content: "$white_60";
+	}
+}
+.cc--var-color-text-strong-invert {
+	&:after {
+		background-color: $white_90;
+	}
+	.cc__variable:after {
+		content: "$white_90";
+	}
+}
+.cc--var-color-link {
+	&:after {
+		background-color: $color_gravel_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gravel_approx";
+	}
+}
+.cc--var-color-link-focus {
+	&:after {
+		background-color: $color_hunter_green_approx;
+	}
+	.cc__variable:after {
+		content: "$color_hunter_green_approx";
+	}
+}
+.cc--var-color-link-hover {
+	&:after {
+		background-color: $color_hunter_green_approx;
+	}
+	.cc__variable:after {
+		content: "$color_hunter_green_approx";
+	}
+}
+.cc--var-color-link-visited {
+	&:after {
+		background-color: $color_gravel_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gravel_approx";
+	}
+}
+.cc--var-color-link-alt {
+	&:after {
+		background-color: $color_carnation_approx;
+	}
+	.cc__variable:after {
+		content: "$color_carnation_approx";
+	}
+}
+.cc--var-color-link-alt-focus {
+	&:after {
+		background-color: $color_medium_carmine_approx;
+	}
+	.cc__variable:after {
+		content: "$color_medium_carmine_approx";
+	}
+}
+.cc--var-color-link-alt-hover {
+	&:after {
+		background-color: $color_mandy_approx;
+	}
+	.cc__variable:after {
+		content: "$color_mandy_approx";
+	}
+}
+.cc--var-color-link-alt-visited {
+	&:after {
+		background-color: $color_cornflower_lilac_approx;
+	}
+	.cc__variable:after {
+		content: "$color_cornflower_lilac_approx";
+	}
+}
+.cc--var-color-grey-10 {
+	&:after {
+		background-color: $color_gallery_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gallery_approx";
+	}
+}
+.cc--var-color-grey-20 {
+	&:after {
+		background-color: $alto;
+	}
+	.cc__variable:after {
+		content: "$alto";
+	}
+}
+.cc--var-color-grey-30 {
+	&:after {
+		background-color: $color_pumice_approx;
+	}
+	.cc__variable:after {
+		content: "$color_pumice_approx";
+	}
+}
+.cc--var-color-grey-40 {
+	&:after {
+		background-color: $color_pink_swan_approx;
+	}
+	.cc__variable:after {
+		content: "$color_pink_swan_approx";
+	}
+}
+.cc--var-color-grey-50 {
+	&:after {
+		background-color: $color_shady_lady_approx;
+	}
+	.cc__variable:after {
+		content: "$color_shady_lady_approx";
+	}
+}
+.cc--var-color-grey-60 {
+	&:after {
+		background-color: $color_mountain_mist_approx;
+	}
+	.cc__variable:after {
+		content: "$color_mountain_mist_approx";
+	}
+}
+.cc--var-color-grey-70 {
+	&:after {
+		background-color: $gray;
+	}
+	.cc__variable:after {
+		content: "gray";
+	}
+}
+.cc--var-color-grey-80 {
+	&:after {
+		background-color: $color_dove_gray_approx;
+	}
+	.cc__variable:after {
+		content: "$color_dove_gray_approx";
+	}
+}
+.cc--var-color-grey-90 {
+	&:after {
+		background-color: $color_chicago_approx;
+	}
+	.cc__variable:after {
+		content: "$color_chicago_approx";
+	}
+}
+.cc--var-color-grey-100 {
+	&:after {
+		background-color: $color_gravel_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gravel_approx";
+	}
+}
+.cc--var-color-border-weak {
+	&:after {
+		background-color: $color_gallery_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gallery_approx";
+	}
+}
+.cc--var-color-border-normal {
+	&:after {
+		background-color: $alto;
+	}
+	.cc__variable:after {
+		content: "$alto";
+	}
+}
+.cc--var-color-border-strong {
+	&:after {
+		background-color: $color_pumice_approx;
+	}
+	.cc__variable:after {
+		content: "$color_pumice_approx";
+	}
+}
+.cc--var-color-message-default {
+	&:after {
+		background-color: $color_gallery_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gallery_approx";
+	}
+}
+.cc--var-color-message-success {
+	&:after {
+		background-color: $color_green_haze_approx;
+	}
+	.cc__variable:after {
+		content: "$color_green_haze_approx";
+	}
+}
+.cc--var-color-message-warning {
+	&:after {
+		background-color: $color_supernova_approx;
+	}
+	.cc__variable:after {
+		content: "$color_supernova_approx";
+	}
+}
+.cc--var-color-message-danger {
+	&:after {
+		background-color: $color_sunset_orange_approx;
+	}
+	.cc__variable:after {
+		content: "$color_sunset_orange_approx";
+	}
+}
+.cc--var-color-input-regular {
+	&:after {
+		background-color: $color_pumice_approx;
+	}
+	.cc__variable:after {
+		content: "$color_pumice_approx";
+	}
+}
+.cc--var-color-input-focus {
+	&:after {
+		background-color: $color_neptune_approx;
+	}
+	.cc__variable:after {
+		content: "$color_neptune_approx";
+	}
+}
+.cc--var-color-input-success {
+	&:after {
+		background-color: $color_green_haze_approx;
+	}
+	.cc__variable:after {
+		content: "$color_green_haze_approx";
+	}
+}
+.cc--var-color-input-error {
+	&:after {
+		background-color: $color_sunset_orange_approx;
+	}
+	.cc__variable:after {
+		content: "$color_sunset_orange_approx";
+	}
+}
+.cc--var-color-input-required {
+	&:after {
+		background-color: $color_well_read_approx;
+	}
+	.cc__variable:after {
+		content: "$color_well_read_approx";
+	}
+}
+.cc--var-color-input-checkbox {
+	&:after {
+		background-color: $color_pumice_approx;
+	}
+	.cc__variable:after {
+		content: "$color_pumice_approx";
+	}
+}
+.cc--var-color-input-checkbox-active {
+	&:after {
+		background-color: $color_neptune_approx;
+	}
+	.cc__variable:after {
+		content: "$color_neptune_approx";
+	}
+}
+.cc--var-color-input-radio {
+	&:after {
+		background-color: $color_pumice_approx;
+	}
+	.cc__variable:after {
+		content: "$color_pumice_approx";
+	}
+}
+.cc--var-color-input-radio-active {
+	&:after {
+		background-color: $color_neptune_approx;
+	}
+	.cc__variable:after {
+		content: "$color_neptune_approx";
+	}
+}
+.cc--var-color-button-regular {
+	&:after {
+		background-color: $color_gravel_approx;
+	}
+	.cc__variable:after {
+		content: "$color_gravel_approx";
+	}
+}
+.cc--var-color-button-regular-hover {
+	&:after {
+		background-color: $color_chicago_approx;
+	}
+	.cc__variable:after {
+		content: "$color_chicago_approx";
+	}
+}
+.cc--var-color-button-primary {
+	&:after {
+		background-color: $color_neptune_approx;
+	}
+	.cc__variable:after {
+		content: "$color_neptune_approx";
+	}
+}
+.cc--var-color-button-primary-hover {
+	&:after {
+		background-color: $color_tradewind_approx;
+	}
+	.cc__variable:after {
+		content: "$color_tradewind_approx";
+	}
+}
