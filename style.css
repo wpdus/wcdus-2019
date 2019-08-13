@@ -1211,6 +1211,7 @@ pre code {
 
 .menu-toggle.focus,.menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {
 	color: #fff;
+	background-color: #8E3BA8;
 }
 
 .menu-toggle:before {
@@ -1242,7 +1243,6 @@ pre code {
 
 .main-navigation,.secondary-navigation {
 	position: relative;
-	background-color: #8E3BA8;
 	z-index: 202;
 }
 
@@ -1291,6 +1291,7 @@ pre code {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	padding-left: 10%;
 }
 
 .sub-menu li.focus > a,.sub-menu li:hover > a {
@@ -1318,9 +1319,6 @@ pre code {
 	}
 	.menu-toggle {
 			display: none;
-	}
-	.main-navigation,.secondary-navigation {
-		background-color: none;
 	}
 	.menu-item {
 		margin: 0 .0625rem;
