@@ -1058,6 +1058,13 @@ pre code {
 	color: rgba(0,0,0,.3) !important;
 	background-color: #eee !important;
 }
+
+.wp-block-button__link {
+	background-color: transparent;
+	font-size: 1em;
+	padding: 5px;
+}
+
 /* HEADER */
 
 .site-header {
