@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -112,7 +113,7 @@ ul {
 }
 
 .page-one-column .panel-content .wrap {
-  max-width: 1000px;
+  max-width: 680px;
   padding-top: 0;
 }
 
@@ -134,7 +135,7 @@ ul {
 @media screen and (min-width: 768px) {
   .navigation-top nav {
     display: flex;
-    margin-left: auto;
+    margin: 0 auto;
   }
 }
 
@@ -227,6 +228,11 @@ ul {
   position: relative;
 }
 
+/* Header Hintergrund auf Startseite */
+.home .custom-header {
+  background: url("https://2019.dusseldorf.wordcamp.org/files/2019/08/duesseldorf-night.png") center bottom cover;
+}
+
 .panel-image {
   background-size: contain;
   height: auto;
@@ -239,15 +245,21 @@ ul {
   }
 }
 
+/* Größe und Positionierung des Logos im Header */
+.custom-logo-link {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.custom-logo-link img {
+  max-width: 600px;
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
 .entry-header {
   display: none !important;
-}
-
-.entry-content > * {
-  max-width: 650px;
 }
 
 .entry-content > .custom-banner:first-of-type {
