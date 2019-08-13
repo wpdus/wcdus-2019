@@ -138,7 +138,7 @@ table.sponsoring td:empty {
 }
 
 /* Sponsors Page */
-@media screen and (min-width: 31em) {
+@media (min-width: 31em) {
   .wcorg-sponsors > div h2 {
     margin-bottom: 0;
     border-top: none;
@@ -162,7 +162,7 @@ table.sponsoring td:empty {
   .wcorg-sponsors > .wcorg-sponsor-level-silber h2::before {
     border-color: #c8d1d8;
   }
-  .wcorg-sponsors .wcorg-sponsors > div h2:after {
+  .wcorg-sponsors > div h2:after {
     width: 16em;
     z-index: -1;
     border-color: white;
