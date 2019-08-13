@@ -1,6 +1,6 @@
 .navigation-top {
-  background-color: $black;
-  border-color: $black;
+  background-color: $navbg;
+  border-color: $navbg;
 
   nav {
     @media screen and (min-width: $md) {
@@ -21,7 +21,7 @@
 
 .main-navigation {
   > div > ul {
-    background-color: $black;
+    background-color: $navbg;
     border-color: rgba($white, 0.5);
     color: $white;
   }

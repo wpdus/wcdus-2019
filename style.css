@@ -112,8 +112,8 @@ button {
 
 /* Navigation */
 .navigation-top {
-  background-color: #1d1d1b;
-  border-color: #1d1d1b;
+  background-color: #8e3ba8;
+  border-color: #8e3ba8;
 }
 
 @media screen and (min-width: 768px) {
@@ -132,7 +132,7 @@ button {
 }
 
 .main-navigation > div > ul {
-  background-color: #1d1d1b;
+  background-color: #8e3ba8;
   border-color: rgba(255, 255, 255, 0.5);
   color: white;
 }
