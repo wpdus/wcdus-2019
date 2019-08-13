@@ -54,6 +54,9 @@
 .home .custom-header {
   background: url('https://2019.dusseldorf.wordcamp.org/files/2019/08/duesseldorf-night.png') center bottom;
   background-size: contain;
+  background-repeat: repeat-x;
+  padding-bottom: 32px;
+  margin-bottom: 50px;
 }
 
 .panel-image {
