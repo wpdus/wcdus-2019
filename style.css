@@ -261,12 +261,17 @@ button {
 .entry-content h4,
 .entry-content h5,
 .entry-content h6,
-.entry-content li,
-.entry-content p,
-.entry-content td,
 .entry-content .googlemaps,
 .entry-content .wp-block-cover {
   margin: 3rem 0 0;
+}
+
+.entry-content p {
+  margin: 2rem 0 0;
+}
+
+.entry-content li {
+  margin: 0.25rem 0 0;
 }
 
 .entry-content .subheadline + h2 {

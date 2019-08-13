@@ -15,12 +15,17 @@
   h4,
   h5,
   h6,
-  li,
-  p,
-  td,
   .googlemaps,
   .wp-block-cover {
     margin: 3rem 0 0;
+  }
+
+  p {
+    margin: 2rem 0 0;
+  }
+
+  li {
+	margin: 0.25rem 0 0;
   }
 
   .subheadline + h2 {
