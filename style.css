@@ -82,6 +82,10 @@ button {
 }
 
 /* Layout */
+.site-content-contain {
+  background: transparent;
+}
+
 .wrap {
   max-width: 1000px;
 }
@@ -327,6 +331,121 @@ button {
 
 .post-12 .post-12 h2 {
   font-size: 30px;
+}
+
+/*--------------------------------------------------------------
+## Sponsor-Level
+--------------------------------------------------------------*/
+table.sponsoring th, table.sponsoring td {
+  word-break: inherit;
+}
+
+table.sponsoring thead {
+  background: #ededed;
+}
+
+table.sponsoring th:nth-child(2),
+table.sponsoring td:nth-child(2) {
+  text-align: center;
+  background: #d1a054;
+}
+
+table.sponsoring th:nth-child(3),
+table.sponsoring td:nth-child(3) {
+  text-align: center;
+  background: #c4bfc4;
+}
+
+table.sponsoring th:nth-child(4),
+table.sponsoring td:nth-child(4) {
+  text-align: center;
+  background: #a66840;
+}
+
+table.sponsoring th:nth-child(5),
+table.sponsoring td:nth-child(5) {
+  text-align: center;
+  background: #ededed;
+}
+
+table.sponsoring td:empty {
+  background: white;
+}
+
+/*--------------------------------------------------------------
+## Sponsor Overview
+--------------------------------------------------------------*/
+@media (min-width: 37.5em) {
+  .wcorg-sponsor {
+    display: flex;
+    width: 50%;
+  }
+}
+
+@media (min-width: 64em) {
+  .wcorg-sponsor {
+    width: 33%;
+  }
+}
+
+.wcorg-sponsor a {
+  align-self: center;
+}
+
+.wcorg-sponsor img {
+  margin-bottom: 0;
+}
+
+@media (min-width: 31em) {
+  .wcorg-sponsors > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wcorg-sponsors > div h2 {
+    flex-basis: 100%;
+    position: relative;
+    margin-top: 1em;
+    text-align: center;
+  }
+  .wcorg-sponsors > div h2:after, .wcorg-sponsors > div h2:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-top: 4px solid #ededed;
+    z-index: -1;
+  }
+  .wcorg-sponsors > div h2:after {
+    width: 5em;
+    border-color: white;
+  }
+  .wcorg-sponsors > div.wcorg-sponsor-level-gold h2:before {
+    border-color: #ffbd59;
+  }
+  .wcorg-sponsors > div.wcorg-sponsor-level-silber h2:before {
+    border-color: #c8d1d8;
+  }
+}
+
+.wcorg-sponsor-description {
+  display: flex;
+  margin: .5em;
+  padding: 1em;
+  border: 1px solid #c9c9c9;
+  align-self: stretch;
+}
+
+@media (min-width: 37.5em) {
+  .wcorg-sponsor-description {
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #c9c9c9;
+    align-self: stretch;
+  }
 }
 
 /* Media */
