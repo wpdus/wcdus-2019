@@ -97,7 +97,7 @@ button {
 }
 
 .page-one-column .panel-content .wrap {
-  max-width: 680px;
+  max-width: 740px;
   padding-top: 0;
 }
 
@@ -266,7 +266,7 @@ button {
 .entry-content td,
 .entry-content .googlemaps,
 .entry-content .wp-block-cover {
-  margin: 2rem 0 0;
+  margin: 3rem 0 0;
 }
 
 .entry-content .subheadline + h2 {
