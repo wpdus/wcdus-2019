@@ -1197,32 +1197,25 @@ pre code {
 }
 
 
-
+/* mobile navigation */
 .menu-toggle {
+	color: hsla(0,0%,100%,.9);
+	background-color: #8E3BA8;
 	padding: 1rem;
-	margin: 0;
-	margin-top: .125rem;
 	width: 100%;
 	font-size: 0;
-	line-height: 24px;
 	font-weight: 700;
 	text-align: center;
-	letter-spacing: .05em;
-	color: hsla(0,0%,100%,.9);
-	border-radius: 0;
-	background-color: var(--body-color);
-	cursor: pointer;
 }
 
 .menu-toggle.focus,.menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {
-	color: hsla(0,0%,100%,.9);
-	background-color: #f95758;
+	color: #fff;
 }
 
 .menu-toggle:before {
 	font-size: 16px;
 	line-height: 24px;
-	content: "Menu";
+	content: "Menü";
 }
 
 .menu-toggle:after,.menu-toggle:before {
@@ -1231,8 +1224,6 @@ pre code {
 }
 
 .menu-toggle:after {
-	position: relative;
-	top: 0;
 	border: .375rem solid transparent;
 	margin-left: .5rem;
 	border-top-color: hsla(0,0%,100%,.9);
@@ -1254,11 +1245,11 @@ pre code {
 	}
 }
 
+/* navigation */
 .main-navigation,.secondary-navigation {
 	position: relative;
-	background-color: #fff;
+	background-color: #8E3BA8;
 	z-index: 202;
-	border-bottom: #787878 solid;
 }
 
 @media (max-width:36em) {
@@ -1345,7 +1336,7 @@ pre code {
 }
 
 .menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
-	color: #638C37;
+	color: #8E3BA8;
 }
 
 @media (min-width:36em) {
@@ -1357,7 +1348,6 @@ pre code {
 	}
 	
 	.menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
-		color: #638C37;
 		background: transparent;
 	}
 }
