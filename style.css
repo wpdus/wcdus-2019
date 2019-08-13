@@ -1301,7 +1301,7 @@ pre code {
 }
 
 /* desktop navigation */
-@media (max-width:36em) {
+@media (min-width:36em) {
 	.main-navigation.toggled-on .menu,.secondary-navigation.toggled-on .menu {
 		display: block;
 	}
