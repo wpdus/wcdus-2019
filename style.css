@@ -562,7 +562,7 @@ h1,h2,h3,h4 {
 	margin-top: 3rem;
 	margin-bottom: 1.2em;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 1.25em;
 }
 
@@ -679,7 +679,7 @@ select {
 	font-family: Roboto, sans-serif;
 	font-size: 1em;
 	line-height: 1.5625em;
-	font-weight: 700;
+	font-weight: 400;
 	background-color: #fff;
 	border-radius: .1875rem;
 	cursor: pointer;
@@ -723,7 +723,7 @@ p {
 }
 
 strong {
-	font-weight: 700;
+	font-weight: 400;
 	color: #171717;
 }
 
@@ -968,7 +968,7 @@ pre code {
 }
 
 .cc__title {
-	font-weight: 700;
+	font-weight: 400;
 	font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
@@ -1205,7 +1205,7 @@ pre code {
 	padding: 1rem;
 	width: 100%;
 	font-size: 0;
-	font-weight: 700;
+	font-weight: 400;
 	text-align: center;
 }
 
@@ -2116,7 +2116,7 @@ article.comment-body {
 
 .comment-author .fn {
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .comment-author .says {
@@ -2256,7 +2256,7 @@ article.comment-body {
 }
 
 .tix_tickets_table .tix-column-price,.tix_tickets_table .tix-column-quantity,.tix_tickets_table .tix-column-remaining {
-	font-weight: 700;
+	font-weight: 400;
 }
 
 #tix-coupon-container {
@@ -2591,14 +2591,14 @@ div.googlemaps iframe {
 		content: attr(data-track-title);
 		color: rgba(0,0,0,.5);
 		text-transform: uppercase;
-		font-weight: 700;
+		font-weight: 400;
 	}
 	
 	.wcpt-schedule .wcb-track-track-1:before,.wcpt-schedule .wcb-track-track-2:before,.wcpt-schedule .wcb-track-workshop-1:before,.wcpt-schedule .wcb-track-workshop-2:before,.wcpt-schedule .wcb-track-workshop-3:before {
 		color: #4a4a4a;
 		background-color: #ededed;
 		text-transform: uppercase;
-		font-weight: 700;
+		font-weight: 400;
 	}
 	
 	.wcpt-schedule .wcpt-session-type-custom:before {
@@ -2656,7 +2656,7 @@ div.googlemaps iframe {
 	font-size: .64em;
 	line-height: 1.25em;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
 	background: #efdc39;
@@ -2694,7 +2694,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
 	background: #ededed;
@@ -2721,7 +2721,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
 	background: #ededed;
@@ -2748,7 +2748,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
 	background: #ededed;
@@ -2775,7 +2775,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	color: rgba(0,0,0,.9);
 	border-radius: .1875rem;
 	background: #ededed;
@@ -3283,7 +3283,7 @@ div.googlemaps iframe {
 	padding: .5rem 1.5rem;
 	font-size: 1em;
 	line-height: 1.5625em;
-	font-weight: 700;
+	font-weight: 400;
 	border-radius: .1875rem;
 	cursor: pointer;
 }
@@ -3358,7 +3358,7 @@ div.googlemaps iframe {
 	content: "#" attr(id);
 	font-size: 14px;
 	line-height: 18px;
-	font-weight: 700;
+	font-weight: 400;
 	font-family: Bitstream Vera Sans Mono, Consolas, Courier, monospace;
 	background-color: #fff;
 }
@@ -3691,7 +3691,7 @@ div.googlemaps iframe {
 	font-size: 16px;
 	line-height: 20px;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
 	-webkit-transform: rotate(-5deg);
@@ -3917,7 +3917,7 @@ div.googlemaps iframe {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1em;
 	line-height: 1.25em;
-	font-weight: 700;
+	font-weight: 400;
 	text-transform: uppercase;
 }
 
@@ -4298,7 +4298,7 @@ img.emoji,img.wp-smiley {
 	line-height: 1.5;
 	color: rgba(0,0,0,.9);
 	text-transform: none;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .kss-sidebar {
@@ -4377,7 +4377,7 @@ img.emoji,img.wp-smiley {
 	font-size: 1rem;
 	line-height: 1.5;
 	font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	color: #444;
 	text-transform: none;
 }
@@ -4408,7 +4408,7 @@ img.emoji,img.wp-smiley {
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
-	font-weight: 700;
+	font-weight: 400;
 	font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	color: rgba(0,0,0,.9);
 	border-left: 4px solid #ff9505;
@@ -4433,7 +4433,7 @@ img.emoji,img.wp-smiley {
 
 .kss-section .kss-modifier__default-name,.kss-section .kss-modifier__name {
 	margin-right: .625rem;
-	font-weight: 700;
+	font-weight: 400;
 	color: rgba(0,0,0,.9);
 }
 
@@ -4511,7 +4511,7 @@ img.emoji,img.wp-smiley {
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .kss-nav__menu li li {
@@ -4558,7 +4558,7 @@ img.emoji,img.wp-smiley {
 	font-size: 18px;
 	font-size: 1.125rem;
 	line-height: 1.5;
-	font-weight: 700;
+	font-weight: 400;
 	color: #ff0;
 }
 
