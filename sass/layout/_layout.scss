@@ -25,3 +25,111 @@
     margin-top: 0 !important;
   }
 }
+
+/* Sponsoring Levels */
+table.sponsoring {
+
+  thead {
+    background: #ededed;
+  }
+  
+  th:nth-child(2),
+  td:nth-child(2) {
+    text-align: center;
+    background: #d1a054;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    text-align: center;
+    background: #c4bfc4;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4) {
+    text-align: center;
+    background: #a66840;
+  }
+
+  th:nth-child(5),
+  td:nth-child(5) {
+    text-align: center;
+    background: #ededed;
+  }
+
+  td:empty {
+    background: white;
+  }
+
+}
+
+/* Sponsors Page */
+.wcorg-sponsors {
+  @media screen and (min-width: 31em) {
+    > div h2 {
+      margin-bottom: 0;
+      border-top: none;
+      grid-column: span 2;
+    }
+    
+    >div h2:after,
+    >div h2:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      border-top: 4px solid #ededed;
+      content: "";
+      z-index: -1;
+    }
+    
+    > .wcorg-sponsor-level-gold h2::before {
+      border-color: #ffbd59;
+    }
+    
+    > .wcorg-sponsor-level-silber h2::before {
+      border-color: #c8d1d8;
+    }
+    
+    .wcorg-sponsors>div h2:after {
+      width: 16em;
+      z-index: -1;
+      border-color: white;
+    }
+  }
+}
+
+.wcorg-sponsor {
+  padding: 0;
+  a {
+    align-self: center;
+  }
+  img {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 37.5em) {
+		display: flex;
+		width: 50%;
+  }
+  @media screen and (min-width: 64em) {
+		width: 33%;
+  }
+}
+
+.wcorg-sponsor-description {
+	display: flex;
+	margin: .5em;
+	padding: 1em;
+	border: 1px solid #c9c9c9;
+	align-self: stretch;
+  
+  @media screen and (min-width: 37.5em) {
+		display: flex;
+		margin: 1em;
+		padding: 1em;
+		border: 1px solid #c9c9c9;
+		align-self: stretch;
+  }
+}
