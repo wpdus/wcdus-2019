@@ -123,6 +123,10 @@ button {
   }
 }
 
+.navigation-top .wrap {
+  padding: 0;
+}
+
 .navigation-top .menu-item a {
   color: white;
 }
@@ -270,6 +274,10 @@ button {
   margin: 2rem 0 0;
 }
 
+.entry-content ul, .entry-content form {
+  margin: 2rem 0 0;
+}
+
 .entry-content li {
   margin: 0.25rem 0 0;
 }
@@ -338,6 +346,10 @@ button {
 
 .post-12 .post-12 h2 {
   font-size: 30px;
+}
+
+.site-content {
+  padding: 0;
 }
 
 /*--------------------------------------------------------------
