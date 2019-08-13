@@ -1,0 +1,27 @@
+.wrap {
+  max-width: $container-lg;
+}
+
+.content-area {
+  max-width: none !important;
+}
+
+.page-one-column {
+  .panel-content {
+    .wrap {
+      max-width: $container-lg;
+      padding-top: 0;
+    }
+  }
+}
+
+/* Page: Save the date */
+.page-id-384 {
+  #content {
+    padding-top: 0 !important;
+  }
+
+  .entry-content > .custom-banner {
+    margin-top: 0 !important;
+  }
+}

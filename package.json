@@ -1,0 +1,24 @@
+{
+  "name": "wcdus-2019",
+  "version": "1.0.0",
+  "description": "Assets für die WordCamp Düsseldorf 2019 Website.",
+  "keywords": [
+    "wordcamp"
+  ],
+  "homepage": "https://github.com/wpdus/wcdus-2019",
+  "license": "GPL-2.0-only",
+  "author": "WPDUS",
+  "scripts": {
+    "build": "run-p \"build:*\"",
+    "build:style": "node-sass style.scss style.css --output-style expanded && postcss -r style.css",
+    "watch": "chokidar \"**/*.scss\" -c \"npm run build\" --initial"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "chokidar-cli": "^1.2.1",
+    "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-focus-within": "^3.0.0"
+  }
+}

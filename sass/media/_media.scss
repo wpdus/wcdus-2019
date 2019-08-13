@@ -1,0 +1,43 @@
+/*--------------------------------------------------------------
+## Media
+--------------------------------------------------------------*/
+.custom-banner.wp-block-media-text {
+	align-items: end;
+	background-color: $brand-primary;
+	grid-template-areas:
+		'. media-text-content .'
+		'. media-text-media .';
+	grid-template-columns: minmax(1em, 1fr) minmax(1em, $container-lg) minmax(1em, 1fr);
+	height: auto;
+	left: 50%;
+	margin: 2rem -50vw;
+	max-width: none;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+
+	@media screen and (min-width: $lg) {
+		grid-template-areas:
+			'media-text-media media-text-media media-text-content .';
+		grid-template-columns: minmax(1em, 1fr) repeat(2, ($container-lg / 2)) minmax(1em, 1fr);
+	}
+
+	&.has-media-on-the-right {
+		@media screen and (min-width: $lg) {
+			grid-template-areas:
+				'. media-text-content media-text-media media-text-media';
+		}
+	}
+
+	&.is-stacked-on-mobile {
+		@media screen and (max-width: 600px) {
+	    grid-template-areas:
+				'media-text-content'
+				'media-text-media';
+		}
+	}
+
+	.wp-block-media-text__content {
+		padding: 2rem 8%;
+	}
+}
