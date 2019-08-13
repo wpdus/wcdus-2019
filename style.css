@@ -22,9 +22,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #1d1d1b;
   font-family: "Merriweather", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.75;
   margin: 0;
   text-rendering: optimizeLegibility;
 }
@@ -36,7 +36,8 @@ h4,
 h5,
 h6 {
   color: #1d1d1b;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   line-height: 1.25;
   padding: 0;
   margin: 0;
@@ -66,9 +67,7 @@ h4 {
 li,
 p,
 td {
-  font-size: 1.125rem;
-  font-size: 0.92rem;
-  line-height: 1.4;
+  font-size: 1rem;
 }
 
 dl,
@@ -115,6 +114,7 @@ ul {
 
 .navigation-top .menu-item a {
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 .navigation-top .menu-item a:focus, .navigation-top .menu-item a:hover {

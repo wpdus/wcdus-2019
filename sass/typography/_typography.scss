@@ -9,9 +9,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	color: $color__text-main;
 	font-family: $font__body;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1em;
-	line-height: 1.4;
+	line-height: 1.75;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
@@ -24,6 +24,7 @@ h5,
 h6 {
 	color: $color__text-main;
 	font-family: $font__heading;
+	font-weight: 400;
 	line-height: 1.25;
 	padding: 0;
 	margin: 0;
@@ -53,9 +54,7 @@ h4 {
 li,
 p,
 td {
-  font-size: 1.125rem;
-  font-size: 0.92rem;
-  line-height: 1.4;
+	font-size: 1rem;
 }
 
 dl,
