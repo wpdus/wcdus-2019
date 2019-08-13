@@ -1,0 +1,49 @@
+h2.widget-title {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	text-transform: none;
+}
+
+.widget {
+	padding-bottom: 0;
+}
+
+.custom-html-widget > .social-navigation {
+  display: none;
+  left: 0;
+  margin-left: 0.75rem;
+  position: absolute;
+  top: -14.5rem;
+  width: auto;
+  z-index: 10;
+
+  @media screen and (min-width: $lg) {
+    display: block;
+  }
+
+  .admin-bar & {
+    top: -14.5rem;
+  }
+
+  .social-navigation__item {
+    display: block;
+    padding: 0;
+    margin: 0.5rem 0;
+  }
+
+  .social-navigation__link {
+    background: transparent;
+    box-shadow: none;
+    margin: 0;
+
+    &:focus,
+    &:hover {
+      box-shadow: none;
+      opacity: 0.8;
+    }
+  }
+
+  img {
+    box-shadow: none;
+  }
+}

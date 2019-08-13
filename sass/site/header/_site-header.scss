@@ -1,0 +1,83 @@
+.site-header {
+  background-color: $brand-primary;
+
+  .wrap {
+    @media screen and (min-width: $md) {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+}
+
+.site-branding {
+  transition: none;
+
+  a {
+    transition: none;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  img {
+    @media screen and (min-width: $md) {
+      max-height: none;
+      max-width: none;
+      width: 100%;
+    }
+  }
+
+  .custom-logo-link {
+    @media screen and (min-width: $md) {
+      flex: 1 0 33%;
+      max-width: 33%;
+    }
+  }
+}
+
+.site-branding-text,
+body:not(.title-tagline-hidden) .site-branding-text {
+  color: $color__text-main;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  @media screen and (min-width: $md) {
+    flex: 1 0 66%;
+    max-width: 66%;
+    padding-bottom: 1rem;
+    text-align: right;
+  }
+}
+
+.site-description {
+  color: $color__text-main;
+  font-size: 1.25rem;
+  margin: 0;
+  order: 1;
+}
+
+.site-title {
+  @include sr-only();
+}
+
+.has-header-image {
+  .custom-header-media {
+    img {
+      position: relative;
+    }
+  }
+}
+
+.panel-image {
+  background-size: contain;
+  height: auto;
+
+  @media screen and (min-width: $lg) {
+    background-size: cover;
+    height: 100vh;
+  }
+}

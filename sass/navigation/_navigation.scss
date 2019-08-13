@@ -1,0 +1,44 @@
+.navigation-top {
+  background-color: $black;
+  border-color: $black;
+
+  nav {
+    @media screen and (min-width: $md) {
+      display: flex;
+      margin-left: auto;
+    }
+  }
+
+  .menu-item a {
+    color: $white;
+
+    &:focus,
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.main-navigation {
+  > div > ul {
+    background-color: $black;
+    border-color: rgba($white, 0.5);
+    color: $white;
+  }
+
+  li {
+    border-color: rgba($white, 0.5);
+  }
+
+  .sub-menu a {
+    color: $black;
+  }
+}
+
+.menu-toggle {
+  color: $white;
+}
+
+.dropdown-toggle {
+	color: white;
+}
