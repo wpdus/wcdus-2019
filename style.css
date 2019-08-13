@@ -173,7 +173,7 @@ ul {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-  background-color: #ffcc00;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
@@ -202,31 +202,6 @@ ul {
     max-height: none;
     max-width: none;
     width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .site-branding .custom-logo-link {
-    flex: 1 0 33%;
-    max-width: 33%;
-  }
-}
-
-.site-branding-text,
-body:not(.title-tagline-hidden) .site-branding-text {
-  color: #1d1d1b;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-@media screen and (min-width: 768px) {
-  .site-branding-text,
-  body:not(.title-tagline-hidden) .site-branding-text {
-    flex: 1 0 66%;
-    max-width: 66%;
-    padding-bottom: 1rem;
-    text-align: right;
   }
 }
 
@@ -367,7 +342,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -393,7 +368,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 
