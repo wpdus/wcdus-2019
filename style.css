@@ -1198,6 +1198,7 @@ pre code {
 
 
 /* mobile navigation */
+
 .menu-toggle {
 	color: hsla(0,0%,100%,.9);
 	background-color: #8E3BA8;
@@ -1243,6 +1244,16 @@ pre code {
 	position: relative;
 	background-color: #8E3BA8;
 	z-index: 202;
+}
+
+@media (max-width:36em) {
+	.menu {
+		display: none;
+		max-width: auto;	
+	}
+	.toggled-on .menu {
+		display: block;
+	}
 }
 
 .menu-item {
@@ -1360,11 +1371,8 @@ pre code {
 	max-width: 50rem;
 }
 
-@media (max-width:36em) {
-	.menu {
-		display: none;
-		max-width: auto;
-	}
+
+	
 	#menu-footer.menu {
 		display: block;
 	}
@@ -1394,9 +1402,7 @@ pre code {
 		align-items: flex-start;
 	}
 	
-	.toggled-on .menu {
-		display: block;
-	}
+	
 }
 
 
