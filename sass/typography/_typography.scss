@@ -1,0 +1,79 @@
+// No font import in here. Use the Design > Fonts settings page.
+
+html {
+	font-size: 16px;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: $color__text-main;
+	font-family: $font__body;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.4;
+	margin: 0;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $color__text-main;
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2 {
+	font-size: 7vw;
+
+	@media screen and (min-width: $md) {
+		font-size: 4rem;
+	}
+
+	@media screen and (min-width: $lg) {
+		font-size: 4.5rem;
+		font-size: 3.2rem;
+	}
+}
+
+h2 {
+	font-weight: bold;
+	line-height: 50px;
+}
+
+h3,
+.subheadline {
+	font-size: 2.5vw;
+
+	@media screen and (min-width: $md) {
+		font-size: 2rem;
+	}
+
+	@media screen and (min-width: $lg) {
+		font-size: 2.25rem;
+		font-size: 1.35rem;
+	}
+}
+
+h4 {
+	font-weight: bold;
+}
+
+li,
+p,
+td {
+  font-size: 1.125rem;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+dl,
+ol,
+ul {
+	padding-left: 1rem;
+}
