@@ -35,7 +35,9 @@ h3,
 h4,
 h5,
 h6,
-.page-title {
+.page-title,
+.page .panel-content .entry-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
   color: #1d1d1b;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -47,13 +49,19 @@ h6,
 }
 
 h1,
-.page-title {
+.page-title,
+.page .panel-content .entry-title,
+.single-post .entry-title, .page .entry-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
   font-size: 2.441rem;
 }
 
 @media screen and (min-width: 768px) {
   h1,
-  .page-title {
+  .page-title,
+  .page .panel-content .entry-title,
+  .single-post .entry-title, .page .entry-title,
+  body.page:not(.twentyseventeen-front-page) .entry-title {
     font-size: 3.052rem;
   }
 }
@@ -303,8 +311,16 @@ button:focus,
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-.entry-header {
-  display: none !important;
+.page.page-one-column .entry-header,
+.twentyseventeen-front-page.page-one-column .entry-header,
+.archive.page-one-column:not(.has-sidebar) .page-header,
+body:not(.twentyseventeen-front-page) .entry-header {
+  margin-bottom: inherit;
+  padding-bottom: inherit;
+}
+
+.entry-meta {
+  display: none;
 }
 
 .entry-content > .custom-banner:first-of-type {
@@ -599,7 +615,7 @@ table.sponsoring td:empty {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -625,7 +641,7 @@ table.sponsoring td:empty {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 

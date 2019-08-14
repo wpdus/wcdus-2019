@@ -1,5 +1,13 @@
-.entry-header {
-  display: none !important;
+.page.page-one-column .entry-header,
+.twentyseventeen-front-page.page-one-column .entry-header,
+.archive.page-one-column:not(.has-sidebar) .page-header,
+body:not(.twentyseventeen-front-page) .entry-header {
+	margin-bottom: inherit;
+	padding-bottom: inherit;
+}
+
+.entry-meta {
+	display: none;
 }
 
 .entry-content {
