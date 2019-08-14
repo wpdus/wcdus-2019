@@ -137,7 +137,7 @@ button:focus,
 }
 
 .page-one-column .panel-content .wrap {
-  max-width: 740px;
+  max-width: 1000px;
   padding-top: 0;
 }
 
@@ -598,7 +598,7 @@ table.sponsoring td:empty {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -624,7 +624,7 @@ table.sponsoring td:empty {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 
