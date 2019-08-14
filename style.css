@@ -112,6 +112,15 @@ button,
   font-family: "Roboto", sans-serif;
   font-weight: 400 !important;
   font-size: 1rem !important;
+  border-radius: 0;
+}
+
+.navigation-top .menu-item a:hover, .navigation-top .menu-item a:focus,
+button:hover,
+button:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+  background: #767676;
 }
 
 /* Layout */
