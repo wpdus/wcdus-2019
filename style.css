@@ -315,8 +315,8 @@ button:focus,
 .twentyseventeen-front-page.page-one-column .entry-header,
 .archive.page-one-column:not(.has-sidebar) .page-header,
 body:not(.twentyseventeen-front-page) .entry-header {
-  margin-bottom: inherit;
-  padding-bottom: inherit;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .entry-meta {
