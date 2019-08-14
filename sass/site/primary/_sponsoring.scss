@@ -11,17 +11,17 @@ table.sponsoring {
 	th:nth-child(2),
 	td:nth-child(2) {
 		text-align: center;
-		background: #d1a054;
+		background: $sponsor-gold;
 	}
 	th:nth-child(3),
 	td:nth-child(3) {
 		text-align: center;
-		background: #c4bfc4;
+		background: $sponsor-silver;
 	}
 	th:nth-child(4),
 	td:nth-child(4) {
 		text-align: center;
-		background: #a66840;
+		background: $sponsor-bronze;
 	}
 	th:nth-child(5),
 	td:nth-child(5) {
@@ -91,13 +91,13 @@ table.sponsoring {
 			}
 		}
 		&.wcorg-sponsor-level-gold h2:before {
-			border-color: #ffbd59;
+			border-color: $sponsor-gold;
 		}
 		&.wcorg-sponsor-level-silber h2:before {
-			border-color: #c8d1d8;
+			border-color: $sponsor-silver;
 		}
 		&.wcorg-sponsor-level-bronze h2:before {
-			border-color: #cd7f32;
+			border-color: $sponsor-bronze;
 		}
 	}
 }
@@ -112,13 +112,13 @@ table.sponsoring {
 
 	&:hover {
 		.wcorg-sponsor-level-gold & {
-			background-color: rgba(#ffbd59, .1)
+			background-color: rgba($sponsor-gold, .1)
 		}
 		.wcorg-sponsor-level-silber & {
-			background-color: rgba(#c8d1d8, .1)
+			background-color: rgba($sponsor-silver, .1)
 		}
 		.wcorg-sponsor-level-bronze & {
-			background-color: rgba(#cd7f32, .1)
+			background-color: rgba($sponsor-bronze, .1)
 		}
 	}
 

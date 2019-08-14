@@ -523,13 +523,13 @@ table.sponsoring td:empty {
     border-color: white;
   }
   .wcorg-sponsors > div.wcorg-sponsor-level-gold h2:before {
-    border-color: #ffbd59;
+    border-color: #d1a054;
   }
   .wcorg-sponsors > div.wcorg-sponsor-level-silber h2:before {
-    border-color: #c8d1d8;
+    border-color: #c4bfc4;
   }
   .wcorg-sponsors > div.wcorg-sponsor-level-bronze h2:before {
-    border-color: #cd7f32;
+    border-color: #a66840;
   }
 }
 
@@ -542,15 +542,15 @@ table.sponsoring td:empty {
 }
 
 .wcorg-sponsor-level-gold .wcorg-sponsor-description:hover {
-  background-color: rgba(255, 189, 89, 0.1);
+  background-color: rgba(209, 160, 84, 0.1);
 }
 
 .wcorg-sponsor-level-silber .wcorg-sponsor-description:hover {
-  background-color: rgba(200, 209, 216, 0.1);
+  background-color: rgba(196, 191, 196, 0.1);
 }
 
 .wcorg-sponsor-level-bronze .wcorg-sponsor-description:hover {
-  background-color: rgba(205, 127, 50, 0.1);
+  background-color: rgba(166, 104, 64, 0.1);
 }
 
 @media (min-width: 37.5em) {
