@@ -48,9 +48,15 @@ table.sponsoring {
 
 	a {
 		align-self: center;
+		box-shadow: none;
+
+		&:hover, &:focus {
+			box-shadow: none;
+		}
 	}
 	img {
-		margin-bottom: 0
+		margin-bottom: 0;
+		box-shadow: none;
 	}
 }
 
@@ -89,6 +95,9 @@ table.sponsoring {
 		&.wcorg-sponsor-level-silber h2:before {
 			border-color: #c8d1d8;
 		}
+		&.wcorg-sponsor-level-bronze h2:before {
+			border-color: #cd7f32;
+		}
 	}
 }
 
@@ -100,11 +109,39 @@ table.sponsoring {
 	border: 1px solid #c9c9c9;
 	align-self: stretch;
 
+	&:hover {
+		.wcorg-sponsor-level-gold & {
+			background-color: rgba(#ffbd59, .1)
+		}
+		.wcorg-sponsor-level-silber & {
+			background-color: rgba(#c8d1d8, .1)
+		}
+		.wcorg-sponsor-level-bronze & {
+			background-color: rgba(#cd7f32, .1)
+		}
+	}
+
 	@media (min-width: 37.5em) {
 		display: flex;
 		margin: 1em;
 		padding: 1em;
 		border: 1px solid #c9c9c9;
 		align-self: stretch;
+	}
+}
+
+/*--------------------------------------------------------------
+## Sponsor Detail
+--------------------------------------------------------------*/
+.single-wcb_sponsor {
+	.single-featured-image-header {
+		padding: 2rem 0;
+		img {
+			max-width: 400px;
+			max-height: 150px;
+		}
+	}
+	.type-wcb_sponsor .wp-block-image:first-child {
+		display: none;
 	}
 }

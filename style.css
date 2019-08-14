@@ -7,7 +7,6 @@
 # Navigation
 # Content
 ## Header
-## Footer
 ## Posts and Pages
 # Media
 # Widgets
@@ -113,11 +112,6 @@ button,
   font-family: "Roboto", sans-serif;
   font-weight: 400 !important;
   font-size: 1rem !important;
-  border-radius: 0%;
-}
-
-button:hover, .wp-block-button__link:hover {
-	background: #767676;
 }
 
 /* Layout */
@@ -287,15 +281,6 @@ button:hover, .wp-block-button__link:hover {
 
 .custom-logo-link img {
   max-width: 600px;
-}
-
-/*--------------------------------------------------------------
-## Footer
---------------------------------------------------------------*/
-
-.site-info {
-	width: 100%;
-	text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -489,10 +474,16 @@ table.sponsoring td:empty {
 
 .wcorg-sponsor a {
   align-self: center;
+  box-shadow: none;
+}
+
+.wcorg-sponsor a:hover, .wcorg-sponsor a:focus {
+  box-shadow: none;
 }
 
 .wcorg-sponsor img {
   margin-bottom: 0;
+  box-shadow: none;
 }
 
 @media (min-width: 31em) {
@@ -527,6 +518,9 @@ table.sponsoring td:empty {
   .wcorg-sponsors > div.wcorg-sponsor-level-silber h2:before {
     border-color: #c8d1d8;
   }
+  .wcorg-sponsors > div.wcorg-sponsor-level-bronze h2:before {
+    border-color: #cd7f32;
+  }
 }
 
 .wcorg-sponsor-description {
@@ -535,6 +529,18 @@ table.sponsoring td:empty {
   padding: 1em;
   border: 1px solid #c9c9c9;
   align-self: stretch;
+}
+
+.wcorg-sponsor-level-gold .wcorg-sponsor-description:hover {
+  background-color: rgba(255, 189, 89, 0.1);
+}
+
+.wcorg-sponsor-level-silber .wcorg-sponsor-description:hover {
+  background-color: rgba(200, 209, 216, 0.1);
+}
+
+.wcorg-sponsor-level-bronze .wcorg-sponsor-description:hover {
+  background-color: rgba(205, 127, 50, 0.1);
 }
 
 @media (min-width: 37.5em) {
@@ -547,6 +553,22 @@ table.sponsoring td:empty {
   }
 }
 
+/*--------------------------------------------------------------
+## Sponsor Detail
+--------------------------------------------------------------*/
+.single-wcb_sponsor .single-featured-image-header {
+  padding: 2rem 0;
+}
+
+.single-wcb_sponsor .single-featured-image-header img {
+  max-width: 400px;
+  max-height: 150px;
+}
+
+.single-wcb_sponsor .type-wcb_sponsor .wp-block-image:first-child {
+  display: none;
+}
+
 /* Media */
 /*--------------------------------------------------------------
 ## Media
@@ -554,8 +576,7 @@ table.sponsoring td:empty {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .'
- '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -581,8 +602,7 @@ table.sponsoring td:empty {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content'
- 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 
