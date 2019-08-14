@@ -13,7 +13,11 @@
 
 .site-branding {
   transition: none;
-  padding: 3em 0 9em;
+  padding: 3em 0 5em;
+  
+  @media screen and (min-width: $md) {
+    padding: 3em 0 9em;
+  }
 
   a {
     transition: none;

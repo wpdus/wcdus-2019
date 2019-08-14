@@ -81,8 +81,10 @@ ul {
 }
 
 .navigation-top .menu-item a,
-button {
+button,
+.wp-block-button__link {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 /* Layout */
@@ -178,7 +180,13 @@ button {
 
 .site-branding {
   transition: none;
-  padding: 3em 0 9em;
+  padding: 3em 0 5em;
+}
+
+@media screen and (min-width: 768px) {
+  .site-branding {
+    padding: 3em 0 9em;
+  }
 }
 
 .site-branding a {
@@ -350,11 +358,7 @@ button {
 }
 
 .site-content {
-  padding: 0;
-}
-
-.site-content > .wrap {
-  padding-top: 2rem;
+  padding: 2rem 0 0;
 }
 
 .page-header h1,
