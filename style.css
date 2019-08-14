@@ -293,6 +293,14 @@ button:focus,
 }
 
 /*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+.site-info {
+  width: 100%;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
 .entry-header {
@@ -482,16 +490,20 @@ table.sponsoring td:empty {
 }
 
 .wcorg-sponsor a {
-  align-self: center;
-  box-shadow: none;
-}
-
-.wcorg-sponsor a:hover, .wcorg-sponsor a:focus {
-  box-shadow: none;
+  display: flex;
+  align-self: stretch;
 }
 
 .wcorg-sponsor img {
+  align-self: center;
   margin-bottom: 0;
+}
+
+.wcorg-sponsor a, .wcorg-sponsor img {
+  box-shadow: none;
+}
+
+.wcorg-sponsor a:hover, .wcorg-sponsor a:focus, .wcorg-sponsor img:hover, .wcorg-sponsor img:focus {
   box-shadow: none;
 }
 
@@ -586,7 +598,7 @@ table.sponsoring td:empty {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -612,7 +624,7 @@ table.sponsoring td:empty {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 
