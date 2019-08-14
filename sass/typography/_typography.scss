@@ -68,6 +68,8 @@ ul {
 }
 
 .navigation-top .menu-item a,
-button  {
+button,
+.wp-block-button__link {
 	font-family: $font__heading;
+	font-weight: 400;
 }
