@@ -393,8 +393,9 @@ button:focus,
   margin: .125rem 0 0 .5rem !important;
 }
 
-.page:not(.home) #content {
-  padding-top: 0;
+.twentyseventeen-front-page .site-content,
+.page #content {
+  padding-top: 2rem;
 }
 
 .post-12 .post-12 h2 {
