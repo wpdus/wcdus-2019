@@ -71,5 +71,6 @@ ul {
 button,
 .wp-block-button__link {
 	font-family: $font__heading;
-	font-weight: 400;
+	font-weight: 400 !important;
+	font-size: 1rem !important;
 }
