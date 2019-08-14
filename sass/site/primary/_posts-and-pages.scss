@@ -103,6 +103,9 @@
 
 .site-content {
 	padding: 0;
+	> .wrap {
+		padding-top: 2rem;
+	}
 }
 
 .page-header {
