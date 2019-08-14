@@ -488,16 +488,20 @@ table.sponsoring td:empty {
 }
 
 .wcorg-sponsor a {
-  align-self: center;
-  box-shadow: none;
-}
-
-.wcorg-sponsor a:hover, .wcorg-sponsor a:focus {
-  box-shadow: none;
+  display: flex;
+  align-self: stretch;
 }
 
 .wcorg-sponsor img {
+  align-self: center;
   margin-bottom: 0;
+}
+
+.wcorg-sponsor a, .wcorg-sponsor img {
+  box-shadow: none;
+}
+
+.wcorg-sponsor a:hover, .wcorg-sponsor a:focus, .wcorg-sponsor img:hover, .wcorg-sponsor img:focus {
   box-shadow: none;
 }
 

@@ -47,16 +47,19 @@ table.sponsoring {
 	}
 
 	a {
+		display: flex;
+		align-self: stretch;
+	}
+	img {
 		align-self: center;
+		margin-bottom: 0;
+	}
+	a, img {
 		box-shadow: none;
 
 		&:hover, &:focus {
 			box-shadow: none;
 		}
-	}
-	img {
-		margin-bottom: 0;
-		box-shadow: none;
 	}
 }
 
