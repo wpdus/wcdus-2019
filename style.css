@@ -494,7 +494,8 @@ table.sponsoring td:empty {
   .wcorg-sponsors > div h2 {
     flex-basis: 100%;
     position: relative;
-    margin-top: 1em;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   .wcorg-sponsors > div h2:after, .wcorg-sponsors > div h2:before {
