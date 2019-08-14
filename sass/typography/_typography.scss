@@ -89,4 +89,10 @@ button,
 	font-family: $font__heading;
 	font-weight: 400 !important;
 	font-size: 1rem !important;
+	border-radius: 0%;
+
+	&:hover {
+		background: #767676;
+	}
 }
+

@@ -112,6 +112,13 @@ button,
   font-family: "Roboto", sans-serif;
   font-weight: 400 !important;
   font-size: 1rem !important;
+  border-radius: 0%;
+}
+
+.navigation-top .menu-item a:hover,
+button:hover,
+.wp-block-button__link:hover {
+  background: #767676;
 }
 
 /* Layout */
@@ -281,6 +288,14 @@ button,
 
 .custom-logo-link img {
   max-width: 600px;
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+.site-info {
+  width: 100%;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -577,7 +592,7 @@ table.sponsoring td:empty {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -603,7 +618,7 @@ table.sponsoring td:empty {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 
