@@ -24,14 +24,41 @@
 }
 
 .main-navigation {
+  @media screen and (min-width:48em) {
+    width: 100%;
+    padding: 0 2.5em;
+
+    .menu-top-menu-container {
+      width: 768px;
+      max-width: 100%;
+      padding: 0;
+      margin: 0 auto;
+    }
+  }
+
   > div > ul {
     background-color: $navbg;
     border-color: rgba($white, 0.5);
     color: $white;
+
+    @media screen and (min-width:48em) {
+      .js & {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
   }
 
-  li {
+  ul > li {
     border-color: rgba($white, 0.5);
+
+    &:hover > ul,
+    &.focus > ul {
+      @media screen and (min-width:48em) {
+        left: 0;
+        right: auto;
+      }
+    }
   }
 
   .sub-menu a {
