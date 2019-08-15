@@ -1,0 +1,24 @@
+.site-footer {
+	.site-info {
+		width: 100%;
+		text-align: center;
+	}
+
+	 .widget-column.footer-widget-1 {
+		@media screen and (min-width:62em) {
+			align-items: center;
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+
+		@media screen and (min-width:48em) {
+			float: none;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+			flex-wrap: nowrap;
+			flex-direction: row;
+		}
+	}
+}
