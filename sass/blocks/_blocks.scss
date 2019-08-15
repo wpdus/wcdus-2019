@@ -22,3 +22,26 @@
 		margin-left: 32px;
 	}
 }
+
+/* Spezielles CSS für den seitenbreiten lila Streifen mit NL-Abo */
+.wp-block-columns.block-sidewide {
+	display: grid;
+	position: relative;
+	width: 100vw;
+	margin: 0 -50vw;
+	left: 50%;
+	right: 50%;
+	grid-template-columns: minmax(1em,1fr) minmax(1em,1000px) minmax(1em,1fr);
+	background-color: $nwsbg;
+	padding: 2em 0;
+	grid-gap: 1em;
+}
+
+.block-sidewide .wp-block-column:nth-child(2) {
+  padding: 0 .5em;
+	margin-left: 0;
+ 
+  @media screen and (min-width:600px) {
+		padding: 0 1.5em;
+	}
+}
