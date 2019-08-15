@@ -183,14 +183,42 @@ button:focus,
   opacity: 0.8;
 }
 
+@media screen and (min-width: 48em) {
+  .main-navigation {
+    width: 100%;
+    padding: 0 2.5em;
+  }
+  .main-navigation .menu-top-menu-container {
+    width: 768px;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
 .main-navigation > div > ul {
   background-color: #8e3ba8;
   border-color: rgba(255, 255, 255, 0.5);
   color: white;
 }
 
-.main-navigation li {
+@media screen and (min-width: 48em) {
+  .js .main-navigation > div > ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.main-navigation ul > li {
   border-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 48em) {
+  .main-navigation ul > li:hover > ul,
+  .main-navigation ul > li.focus > ul {
+    left: 0;
+    right: auto;
+  }
 }
 
 .main-navigation .sub-menu a {
@@ -305,9 +333,29 @@ button:focus,
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
-.site-info {
+.site-footer .site-info {
   width: 100%;
   text-align: center;
+}
+
+@media screen and (min-width: 62em) {
+  .site-footer .widget-column.footer-widget-1 {
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .site-footer .widget-column.footer-widget-1 {
+    float: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -717,4 +765,11 @@ h2.widget-title {
 .wp-block-media-text__content h2 {
   font-size: 40px;
   line-height: 45px;
+}
+
+/* Fehler beim 3-Spalten Teaser: Teilweise fehlt der Abstand zwischen den Spalten. */
+@media screen and (min-width: 600px) and (max-width: 781px) {
+  .wp-block-column:not(:first-child) {
+    margin-left: 32px;
+  }
 }
