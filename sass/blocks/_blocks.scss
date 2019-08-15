@@ -15,3 +15,10 @@
 	font-size: 40px;
 	line-height: 45px;
 }
+
+/* Fehler beim 3-Spalten Teaser: Teilweise fehlt der Abstand zwischen den Spalten. */
+.wp-block-column:not(:first-child) {
+	@media screen and (min-width:600px) and (max-width: 781px) {
+		margin-left: 32px;
+	}
+}
