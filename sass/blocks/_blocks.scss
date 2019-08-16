@@ -35,13 +35,36 @@
 	background-color: $nwsbg;
 	padding: 2em 0;
 	grid-gap: 1em;
+
+	@media screen and (min-width:62em) {
+		grid-template-columns: minmax(1em,1fr) minmax(1em,1000px) minmax(1em,1fr);
+
+		.block-sidewide .wp-block-column:nth-child(2) {
+			padding: 0 3em;
+		}
+	}
 }
 
 .block-sidewide .wp-block-column:nth-child(2) {
-  padding: 0 .5em;
+	padding: 0 .5em;
 	margin-left: 0;
- 
-  @media screen and (min-width:600px) {
+
+	@media screen and (min-width:600px) {
 		padding: 0 1.5em;
+	}
+	@media screen and (min-width:62em) {
+		padding: 0 3em;
+	}
+}
+
+@media screen and (min-width:600px) {
+	/* Input + Submit nebeneinander ab 600px Breite */
+	#subscribe-email {
+		width: 75%;
+		display: inline-block;
+	}
+
+	#subscribe-submit {
+		display: inline-block;
 	}
 }
