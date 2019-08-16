@@ -4,7 +4,15 @@
 		text-align: center;
 	}
 
-	 .widget-column.footer-widget-1 {
+	.widget-column.footer-widget-1 {
+		float: none;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: nowrap;
+		flex-direction: column;
+
 		@media screen and (min-width:62em) {
 			align-items: center;
 			flex-wrap: wrap;
@@ -12,10 +20,6 @@
 		}
 
 		@media screen and (min-width:48em) {
-			float: none;
-			width: 100%;
-			display: flex;
-			justify-content: space-between;
 			align-items: flex-end;
 			flex-wrap: nowrap;
 			flex-direction: row;
