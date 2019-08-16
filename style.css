@@ -478,13 +478,18 @@ body:not(.twentyseventeen-front-page) .entry-header {
   padding: 2rem 0 0;
 }
 
-.page-header h1,
-.page-header h2,
-.page-header h3,
-.page-header h4,
-.page-header h5,
-.page-header h6,
-.page-header .wp-block-cover {
+.page-header .page-title,
+.page-header .entry-title,
+.page-header .wp-block-cover,
+.entry-header .page-title,
+.entry-header .entry-title,
+.entry-header .wp-block-cover,
+.page .panel-content .entry-header .page-title,
+.page .panel-content .entry-header .entry-title,
+.page .panel-content .entry-header .wp-block-cover,
+body.page:not(.twentyseventeen-front-page) .page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title,
+body.page:not(.twentyseventeen-front-page) .wp-block-cover {
   margin: 3rem 0 0;
 }
 
