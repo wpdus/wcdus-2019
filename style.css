@@ -114,21 +114,25 @@ ul {
   padding-left: 1rem;
 }
 
-.navigation-top .menu-item a,
 button,
-.wp-block-button__link {
+.wp-block-button__link,
+.navigation-top .menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 400 !important;
   font-size: 1rem !important;
   border-radius: 0;
 }
 
-.navigation-top .menu-item a:hover, .navigation-top .menu-item a:focus,
-button:hover,
-button:focus,
+button:hover, button:focus,
 .wp-block-button__link:hover,
-.wp-block-button__link:focus {
+.wp-block-button__link:focus,
+.navigation-top .menu-item a:hover,
+.navigation-top .menu-item a:focus {
   background: #767676;
+}
+
+.tix_other_payment_options.tix-payment-tab {
+  font-family: "Merriweather", sans-serif;
 }
 
 /* Layout */
@@ -160,8 +164,8 @@ button:focus,
 
 /* Navigation */
 .navigation-top {
-  background-color: #8e3ba8;
-  border-color: #8e3ba8;
+  background-color: #ff80cd;
+  border-color: #ff80cd;
 }
 
 @media screen and (min-width: 768px) {
@@ -197,7 +201,7 @@ button:focus,
 }
 
 .main-navigation > div > ul {
-  background-color: #8e3ba8;
+  background-color: #ff80cd;
   border-color: rgba(255, 255, 255, 0.5);
   color: white;
 }
@@ -794,7 +798,7 @@ h2.widget-title {
   left: 50%;
   right: 50%;
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
-  background-color: rgba(142, 59, 168, 0.2);
+  background-color: rgba(246, 246, 246, 0.9);
   padding: 2em 0;
   grid-gap: 1em;
 }
