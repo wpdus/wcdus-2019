@@ -88,15 +88,19 @@ ul {
 	padding-left: 1rem;
 }
 
-.navigation-top .menu-item a,
 button,
-.wp-block-button__link {
+.wp-block-button__link,
+.navigation-top .menu-item a {
 	font-family: $font__heading;
 	font-weight: 400 !important;
 	font-size: 1rem !important;
 	border-radius: 0;
+
 	&:hover, &:focus {
 		background: #767676;
 	}
 }
 
+.tix_other_payment_options.tix-payment-tab {
+	font-family: $font__body;
+}
