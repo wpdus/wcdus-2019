@@ -118,7 +118,7 @@ button,
 .wp-block-button__link,
 .navigation-top .menu-item a {
   font-family: "Roboto", sans-serif;
-  font-weight: 400 !important;
+  font-weight: 700 !important;
   font-size: 1rem !important;
   border-radius: 0;
 }
@@ -164,8 +164,8 @@ button:hover, button:focus,
 
 /* Navigation */
 .navigation-top {
-  background-color: #ff80cd;
-  border-color: #ff80cd;
+  background-color: #08b8e9;
+  border-color: #08b8e9;
 }
 
 @media screen and (min-width: 768px) {
@@ -201,7 +201,7 @@ button:hover, button:focus,
 }
 
 .main-navigation > div > ul {
-  background-color: #ff80cd;
+  background-color: #08b8e9;
   border-color: rgba(255, 255, 255, 0.5);
   color: white;
 }
@@ -337,6 +337,11 @@ button:hover, button:focus,
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
+.site-footer {
+  background-color: #f7f7f7;
+  border-top: none;
+}
+
 .site-footer .site-info {
   width: 100%;
   text-align: center;
@@ -366,6 +371,10 @@ button:hover, button:focus,
     flex-wrap: nowrap;
     flex-direction: row;
   }
+}
+
+.site-footer .widget-area ul li a {
+  box-shadow: inset 0 -1px 0 #f7f7f7;
 }
 
 /*--------------------------------------------------------------
@@ -798,7 +807,7 @@ h2.widget-title {
   left: 50%;
   right: 50%;
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
-  background-color: rgba(246, 246, 246, 0.9);
+  background-color: #f7f7f7;
   padding: 2em 0;
   grid-gap: 1em;
 }
