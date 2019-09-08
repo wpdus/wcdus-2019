@@ -213,6 +213,16 @@ button:hover, button:focus,
   }
 }
 
+.main-navigation ul {
+  background-color: #08b8e9;
+}
+
+@media screen and (min-width: 48em) {
+  .main-navigation ul {
+    background-color: white;
+  }
+}
+
 .main-navigation ul > li {
   border-color: rgba(255, 255, 255, 0.5);
 }
@@ -226,7 +236,13 @@ button:hover, button:focus,
 }
 
 .main-navigation .sub-menu a {
-  color: #1d1d1b;
+  color: white;
+}
+
+@media screen and (min-width: 48em) {
+  .main-navigation .sub-menu a {
+    color: #1d1d1b;
+  }
 }
 
 .menu-toggle {

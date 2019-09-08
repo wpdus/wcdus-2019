@@ -49,6 +49,14 @@
     }
   }
 
+  ul {
+    background-color: $navbg;
+
+    @media screen and (min-width:48em) {
+      background-color: $white;  
+    }  
+  }
+
   ul > li {
     border-color: rgba($white, 0.5);
 
@@ -62,7 +70,10 @@
   }
 
   .sub-menu a {
-    color: $black;
+    color: $white;
+    @media screen and (min-width:48em) {
+      color: $black;
+    }
   }
 }
 
