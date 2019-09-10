@@ -583,35 +583,45 @@ table.sponsoring td:empty {
 /*--------------------------------------------------------------
 ## Sponsor Overview
 --------------------------------------------------------------*/
+.wcorg-sponsors a {
+  display: flex;
+  align-self: stretch;
+  box-shadow: none;
+}
+
+.wcorg-sponsors a:hover, .wcorg-sponsors a:focus, .wcorg-sponsors a:active {
+  box-shadow: none;
+}
+
+.wcorg-sponsors a img {
+  align-self: center;
+  max-height: 68px;
+  margin: 0 auto;
+  box-shadow: none;
+}
+
+.wcorg-sponsors a img:hover, .wcorg-sponsors a img:focus, .wcorg-sponsors a img:active {
+  box-shadow: none;
+}
+
 @media (min-width: 37.5em) {
-  .wcorg-sponsor {
+  .wcorg-sponsors .wcorg-sponsor {
     display: flex;
     width: 50%;
   }
 }
 
 @media (min-width: 64em) {
-  .wcorg-sponsor {
+  .wcorg-sponsors .wcorg-sponsor {
     width: 33%;
   }
 }
 
-.wcorg-sponsor a {
+.wcorg-sponsors .wcorg-sponsor-description {
   display: flex;
-  align-self: stretch;
-}
-
-.wcorg-sponsor img {
-  align-self: center;
-  margin-bottom: 0;
-}
-
-.wcorg-sponsor a, .wcorg-sponsor img {
-  box-shadow: none;
-}
-
-.wcorg-sponsor a:hover, .wcorg-sponsor a:focus, .wcorg-sponsor img:hover, .wcorg-sponsor img:focus {
-  box-shadow: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 31em) {
@@ -660,15 +670,15 @@ table.sponsoring td:empty {
   align-self: stretch;
 }
 
-.wcorg-sponsor-level-gold .wcorg-sponsor-description:hover {
+.wcorg-sponsor-level-gold .wcorg-sponsor-description:hover, .wcorg-sponsor-level-gold .wcorg-sponsor-description:focus, .wcorg-sponsor-level-gold .wcorg-sponsor-description:active {
   background-color: rgba(209, 160, 84, 0.1);
 }
 
-.wcorg-sponsor-level-silber .wcorg-sponsor-description:hover {
+.wcorg-sponsor-level-silber .wcorg-sponsor-description:hover, .wcorg-sponsor-level-silber .wcorg-sponsor-description:focus, .wcorg-sponsor-level-silber .wcorg-sponsor-description:active {
   background-color: rgba(196, 191, 196, 0.1);
 }
 
-.wcorg-sponsor-level-bronze .wcorg-sponsor-description:hover {
+.wcorg-sponsor-level-bronze .wcorg-sponsor-description:hover, .wcorg-sponsor-level-bronze .wcorg-sponsor-description:focus, .wcorg-sponsor-level-bronze .wcorg-sponsor-description:active {
   background-color: rgba(166, 104, 64, 0.1);
 }
 
@@ -705,7 +715,7 @@ table.sponsoring td:empty {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -731,7 +741,7 @@ table.sponsoring td:empty {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 

@@ -37,29 +37,44 @@ table.sponsoring {
 /*--------------------------------------------------------------
 ## Sponsor Overview
 --------------------------------------------------------------*/
-.wcorg-sponsor {
-	@media (min-width: 37.5em) {
-		display: flex;
-		width: 50%;
-	}
-	@media (min-width: 64em) {
-		width: 33%;
-	}
+.wcorg-sponsors {
 
 	a {
 		display: flex;
 		align-self: stretch;
-	}
-	img {
-		align-self: center;
-		margin-bottom: 0;
-	}
-	a, img {
 		box-shadow: none;
 
-		&:hover, &:focus {
+		&:hover, &:focus, &:active {
 			box-shadow: none;
 		}
+
+		img {
+			align-self: center;
+			max-height: 68px;
+			margin: 0 auto;
+			box-shadow: none;
+			&:hover, &:focus, &:active {
+				box-shadow: none;
+			}
+		}
+	}
+	
+	.wcorg-sponsor {
+		@media (min-width: 37.5em) {
+			display: flex;
+			width: 50%;
+		}
+
+		@media (min-width: 64em) {
+			width: 33%;
+		}
+	}
+
+	.wcorg-sponsor-description {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
 	}
 }
 
@@ -113,7 +128,7 @@ table.sponsoring {
 	border: 1px solid #c9c9c9;
 	align-self: stretch;
 
-	&:hover {
+	&:hover, &:focus, &:active {
 		.wcorg-sponsor-level-gold & {
 			background-color: rgba($sponsor-gold, .1)
 		}
