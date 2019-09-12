@@ -29,3 +29,14 @@
     margin-top: 0 !important;
   }
 }
+
+#tix-attendees .tix-columns-3 li {
+  width: 100%;
+
+  @media screen and (min-width: $sm) {
+    width: 50%;
+  }
+  @media screen and (min-width: $md) {
+    width: 33.3%;
+  }
+}

@@ -176,6 +176,22 @@ button:hover, button:focus,
   margin-top: 0 !important;
 }
 
+#tix-attendees .tix-columns-3 li {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  #tix-attendees .tix-columns-3 li {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #tix-attendees .tix-columns-3 li {
+    width: 33.3%;
+  }
+}
+
 /* Navigation */
 .navigation-top {
   background-color: #08b8e9;
