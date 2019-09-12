@@ -135,6 +135,20 @@ button:hover, button:focus,
   font-family: "Merriweather", sans-serif;
 }
 
+#tix-attendees li {
+  margin-top: 2rem;
+}
+
+#tix-attendees .tix-field {
+  box-shadow: none;
+  font-size: .8em;
+}
+
+#tix-attendees .tix-field.tix-attendee-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /* Layout */
 .site-content-contain {
   background: transparent;
@@ -715,7 +729,7 @@ table.sponsoring td:empty {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -741,7 +755,7 @@ table.sponsoring td:empty {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 

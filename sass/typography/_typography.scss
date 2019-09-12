@@ -104,3 +104,19 @@ button,
 .tix_other_payment_options.tix-payment-tab {
 	font-family: $font__body;
 }
+
+#tix-attendees { 
+	li {
+		margin-top: 2rem;
+	}
+
+	.tix-field {
+		box-shadow: none;
+		font-size: .8em;
+	}
+
+	.tix-field.tix-attendee-name {
+		font-size: 1rem;
+		font-weight: bold;
+	}
+}
