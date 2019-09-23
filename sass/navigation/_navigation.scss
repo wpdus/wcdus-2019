@@ -29,7 +29,7 @@
     padding: 0 2.5em;
 
     .menu-top-menu-container {
-      width: 768px;
+      width: 100%;
       max-width: 100%;
       padding: 0;
       margin: 0 auto;
@@ -53,8 +53,8 @@
     background-color: $navbg;
 
     @media screen and (min-width:48em) {
-      background-color: $white;  
-    }  
+      background-color: $white;
+    }
   }
 
   ul > li {
