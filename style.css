@@ -738,30 +738,44 @@ table.sponsoring td:empty {
   display: none;
 }
 
-.wcpt-session-type-session:after {
-  font-size: 15px;
-  color: #fff;
+.wcpt-session-type-session:after,
+.wcb-session-cell-content:after {
+  font-size: 0.9em;
+  color: #333;
   border-radius: 3px;
   padding: 2px 5px;
-  margin: 0 5px 5px 0;
+  margin: 5px 5px 5px 0;
+  border: 1px solid #ddd;
+  background-color: #ddd;
   display: inline-block;
   float: left;
 }
 
+.wcpt-session-type-session:after {
+  color: #fff;
+}
+
 .wcpt-session-type-session.wcb-session-category-talk:after {
-  content: "Talk";
-  border: 1px solid #0e64bc;
-  background-color: #0e64bc;
+  content: "#talk";
+  border: 1px solid #FF904D;
+  background-color: #FF904D;
 }
 
 .wcpt-session-type-session.wcb-session-category-workshop:after {
-  content: "Workshop";
-  border: 1px solid #719649;
-  background-color: #719649;
+  content: "#workshop";
+  border: 1px solid #7FD957;
+  background-color: #7FD957;
+}
+
+.wcpt-session-type-session.wcb-session-category-podium:after {
+  content: "#podium";
+  border: 1px solid #FF5657;
+  background-color: #FF5657;
 }
 
 .wcb-session-cell-content a {
   margin-bottom: 5px;
+  box-shadow: inset 0 -1px 0 #ccc;
 }
 
 .wcb-session-cell-content a:after {
@@ -769,79 +783,49 @@ table.sponsoring td:empty {
   display: block;
 }
 
-.wcb-session-cell-content:after {
-  font-size: 15px;
-  color: #fff;
-  border-radius: 3px;
-  padding: 2px 5px;
-  margin: 0 5px 5px 0;
-  display: inline-block;
-  float: left;
-}
-
-.wcb-session-category-podium .wcb-session-cell-content:after {
-  content: "Podium";
-  border: 1px solid #bd8dcc;
-  background-color: #bd8dcc;
-}
-
 .wcb-session-category-gutenberg .wcb-session-cell-content:after {
-  content: "Gutenberg";
-  border: 1px solid #bd8dcc;
-  background-color: #bd8dcc;
+  content: "#gutenberg";
 }
 
 .wcb-session-category-pagespeed .wcb-session-cell-content:after {
-  content: "Pagespeed";
-  border: 1px solid #84b0dd;
-  background-color: #84b0dd;
+  content: "#pagespeed";
 }
 
 .wcb-session-category-seo .wcb-session-cell-content:after {
-  content: "SEO";
-  border: 1px solid #000;
-  background-color: #000;
+  content: "#SEO";
 }
 
 .wcb-session-category-e-commerce .wcb-session-cell-content:after {
-  content: "e-Commerce";
-  border: 1px solid #000;
-  background-color: #000;
+  content: "#e-commerce";
 }
 
 .wcb-session-category-datenschutz .wcb-session-cell-content:after {
-  content: "Datenschutz";
-  border: 1px solid #ddae33;
-  background-color: #ddae33;
+  content: "#datenschutz";
 }
 
 .wcb-session-category-dev .wcb-session-cell-content:after {
-  content: "Dev";
-  border: 1px solid #d75826;
-  background-color: #d75826;
+  content: "#dev";
 }
 
 .wcb-session-category-content .wcb-session-cell-content:after {
-  content: "Content";
-  border: 1px solid #cfc709;
-  background-color: #cfc709;
+  content: "#content";
 }
 
 .wcb-session-category-business .wcb-session-cell-content:after {
-  content: "Business";
-  border: 1px solid #ff4500;
-  background-color: #ff4500;
+  content: "#business";
 }
 
 .wcb-session-category-design1 .wcb-session-cell-content:after {
-  content: "Design";
-  border: 1px solid #9648ae;
-  background-color: #9648ae;
+  content: "#design";
+}
+
+table.wcpt-schedule {
+  font-family: "Roboto", sans-serif;
 }
 
 table.wcpt-schedule th {
   color: #fff;
-  background-color: #08b8e9;
+  background-color: #36B6FF;
   border-bottom: 2px solid #dadada;
 }
 
@@ -866,12 +850,38 @@ table.wcpt-schedule th.wcb-session-mittagspause, table.wcpt-schedule th.wcb-sess
   border: none !important;
 }
 
+table.wcpt-schedule tbody {
+  border-bottom: 5px solid #eee;
+}
+
 table.wcpt-schedule tbody tr:nth-child(even) {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 table.wcpt-schedule tbody tr:nth-child(odd) {
-  background-color: #fff;
+  background-color: #eee;
+}
+
+table.wcpt-schedule tbody tr.global-session {
+  background-color: #ccc;
+}
+
+table.wcpt-schedule tbody tr.global-session .wcb-session-cell-content {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+table.wcpt-schedule .wcpt-session-speakers {
+  font-size: 0.8em;
+}
+
+table.wcpt-schedule .wcpt-session-speakers a {
+  line-height: 1;
+}
+
+table.wcpt-schedule .wcpt-session-speakers:before {
+  content: " von ";
 }
 
 /* Media */
