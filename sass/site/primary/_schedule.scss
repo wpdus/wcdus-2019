@@ -1,0 +1,250 @@
+table.wcpt-schedule {
+
+    .wcb-session-category-podium {
+        .wcb-session-cell-content {
+            &::after {
+                content: "Podium";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #bd8dcc;
+                background-color: #bd8dcc;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                left: 16px;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 50px;
+                }
+            }
+        }
+    }
+
+    .wcb-session-category-gutenberg {
+        .wcb-session-cell-content {
+            &::after {
+                content: "Gutenberg";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #bd8dcc;
+                background-color: #bd8dcc;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                left: 16px;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 93px;
+                }
+            }
+        }
+    }
+
+    .wcb-session-category-pagespeed {
+        .wcb-session-cell-content {
+            &::after {
+                content: "Pagespeed";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #84b0dd;
+                background-color: #84b0dd;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                left: 25px;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 93px;
+                }
+            }
+        }
+    }
+
+    .wcb-session-category-seo {
+        .wcb-session-cell-content {
+            &::after {
+                content: "SEO";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #000;
+                background-color: #000;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                left: 44px;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 93px;
+                }
+            }
+        }
+    }
+
+    .wcb-session-category-datenschutz {
+        .wcb-session-cell-content {
+            &::after {
+                content: "Datenschutz";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #ddae33;
+                background-color: #ddae33;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                left: 50px;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 50px;
+                }
+            }
+        }
+    }
+
+    .wcb-session-category-dev {
+        .wcb-session-cell-content {
+            &::after {
+                content: "Dev";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #d75826;
+                background-color: #d75826;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                left: 13px;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 93px;
+                }
+            }
+        }
+    }
+
+    .wcb-session-category-content {
+        .wcb-session-cell-content {
+            &::after {
+                content: "Content";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #cfc709;
+                background-color: #cfc709;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                left: 0;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 93px;
+                }
+            }
+        }
+    }
+    .wcb-session-category-business {
+        .wcb-session-cell-content {
+            &::after {
+                content: "Business";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #ff4500;
+                background-color: #ff4500;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                left: 20px;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 50px;
+                }
+            }
+        }
+    }
+    
+    .wcb-session-category-talk {
+        &::after {
+            content: "Talk";
+            font-size: 15px;
+            color: #fff;
+            border: 1px solid #0e64bc;
+            background-color: #0e64bc;
+            border-radius: 3px;
+            padding: 2px 5px 2px 5px;
+        }
+    }
+
+    .wcb-session-category-design {
+        .wcb-session-cell-content {
+            &::after {
+                content: "Design";
+                font-size: 15px;
+                color: #fff;
+                border: 1px solid #9648ae;
+                background-color: #9648ae;
+                border-radius: 3px;
+                padding: 2px 5px 2px 5px;
+                position: relative;
+                top: 38px;
+                right: 31px;
+
+                @media screen and (max-width: 700px) {
+                    top: 32px;
+                    left: 50px;
+                }
+            }
+        }
+    }
+
+    .wcb-session-category-workshop {
+        &::after {
+            content: "Workshop";
+            font-size: 15px;
+            color: #fff;
+            border: 1px solid #719649;
+            background-color: #719649;
+            border-radius: 3px;
+            padding: 2px 5px 2px 5px;
+        }
+    }
+
+    tr {
+        th { color: #fff; background-color: $navbg; border-bottom: 2px solid #dadada;}
+        th:nth-child(1) { border-right: 1px solid #dadada; }
+        th:nth-child(2) { border-right: 1px solid #dadada; }
+        th:nth-child(4) {
+            .wcpt-track-name {
+                display: none; 
+            }
+        }
+        th:nth-child(5) { border-left: 1px solid #dadada; }
+    }
+    
+    tbody {
+        tr {
+            &:nth-child(even) { background-color: #eee; }
+            &:nth-child(odd) { background-color: #fff; }
+
+            td:nth-child(1) { border-right: 1px solid #dadada; }
+            td:nth-child(2) { border-right: 1px solid #dadada; }
+            td:nth-child(5) { border-left: 1px solid #dadada; }
+            td.wcb-session-mittagspause { border: none !important; }
+            td.wcb-session-kuchenpause { border: none !important; }
+
+            .wcb-session-cell-content { margin-bottom: 10px; }
+        }
+    }
+}
