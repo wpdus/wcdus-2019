@@ -890,6 +890,11 @@ table.wcpt-schedule .wcpt-session-speakers:before {
 	 */
 }
 
+.post-slug-t-shirt .grunion-field-wrap + p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
 .post-slug-t-shirt table {
   /**
 		 * Makes all columns equal width.

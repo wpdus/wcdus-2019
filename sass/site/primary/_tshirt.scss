@@ -1,4 +1,9 @@
 .post-slug-t-shirt {
+	.grunion-field-wrap + p {
+		margin-top: 0;
+		margin-bottom: 2rem;
+	}
+
 	table {
 		/**
 		 * Makes all columns equal width.
