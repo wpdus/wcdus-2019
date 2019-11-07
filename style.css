@@ -884,6 +884,90 @@ table.wcpt-schedule .wcpt-session-speakers:before {
   content: " von ";
 }
 
+.post-slug-t-shirt {
+  /**
+	 * Small Screen Only
+	 */
+}
+
+.post-slug-t-shirt table {
+  /**
+		 * Makes all columns equal width.
+		 * Then we override the first column to be only 10% width.
+		 * The other columns stay equally wide.
+		 */
+  table-layout: fixed;
+  width: 100%;
+}
+
+.post-slug-t-shirt table td {
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+
+.post-slug-t-shirt table td:first-child {
+  width: 15%;
+}
+
+.post-slug-t-shirt table td:last-child {
+  border-right: none;
+}
+
+.post-slug-t-shirt table tr:first-child td {
+  background-color: #ccc;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+
+.post-slug-t-shirt table tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+@media (max-width: 750px) {
+  .post-slug-t-shirt table {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  .post-slug-t-shirt table tbody {
+    display: flex;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    min-width: 100%;
+  }
+  .post-slug-t-shirt table tr {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    z-index: -1;
+    width: 25%;
+  }
+  .post-slug-t-shirt table td {
+    border-right: 0;
+  }
+  .post-slug-t-shirt table tr:first-child td {
+    text-align: left;
+  }
+  .post-slug-t-shirt table tr:first-child td,
+  .post-slug-t-shirt table tr:first-child td:last-child {
+    border-right: 1px solid #eee;
+    text-align: right;
+  }
+  .post-slug-t-shirt table td, .post-slug-t-shirt table th {
+    border-bottom: 1px solid #ccc;
+  }
+  .post-slug-t-shirt table td:first-child, .post-slug-t-shirt table th:first-child {
+    width: auto;
+  }
+  .post-slug-t-shirt table td:last-child, .post-slug-t-shirt table th:last-child {
+    border-bottom: 0;
+  }
+}
+
 /* Media */
 /*--------------------------------------------------------------
 ## Media
