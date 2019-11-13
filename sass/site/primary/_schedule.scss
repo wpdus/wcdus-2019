@@ -20,23 +20,32 @@
             padding: 3px 0;
         }
     }
-    &:after {
-        color: #fff;
+    &.wcb-session-category-gutenberg:after {
+        content: "#gutenberg";
     }
-    &.wcb-session-category-talk:after {
-        content: "#talk";
-        border: 1px solid #FF904D;
-        background-color: #FF904D;
+    &.wcb-session-category-pagespeed:after {
+        content: "#pagespeed";
     }
-    &.wcb-session-category-workshop:after {
-        content: "#workshop";
-        border: 1px solid #7FD957;
-        background-color: #7FD957;
+    &.wcb-session-category-seo:after {
+        content: "#SEO";
     }
-    &.wcb-session-category-podium:after {
-        content: "#podium";
-        border: 1px solid #FF5657;
-        background-color: #FF5657;
+    &.wcb-session-category-e-commerce:after {
+        content: "#e-commerce";
+    }
+    &.wcb-session-category-datenschutz:after {
+        content: "#datenschutz";
+    }
+    &.wcb-session-category-dev:after {
+        content: "#dev";
+    }
+    &.wcb-session-category-content:after {
+        content: "#content";
+    }
+    &.wcb-session-category-business:after {
+        content: "#business";
+    }
+    &.wcb-session-category-design1:after {
+        content: "#design";
     }
 }
 
@@ -56,37 +65,29 @@
     }
 
     &:after {
-        .wcb-session-category-gutenberg & {
-            content: "#gutenberg";
+        color: #fff;
+
+        .wcb-session-category-talk & {
+            content: "#talk";
+            border: 1px solid #FF904D;
+            background-color: #FF904D;
         }
-        .wcb-session-category-pagespeed & {
-            content: "#pagespeed";
+        .wcb-session-category-workshop & {
+            content: "#workshop";
+            border: 1px solid #7FD957;
+            background-color: #7FD957;
         }
-        .wcb-session-category-seo & {
-            content: "#SEO";
-        }
-        .wcb-session-category-e-commerce & {
-            content: "#e-commerce";
-        }
-        .wcb-session-category-datenschutz & {
-            content: "#datenschutz";
-        }
-        .wcb-session-category-dev & {
-            content: "#dev";
-        }
-        .wcb-session-category-content & {
-            content: "#content";
-        }
-        .wcb-session-category-business & {
-            content: "#business";
-        }
-        .wcb-session-category-design1 & {
-            content: "#design";
+        .wcb-session-category-podium & {
+            content: "#podium";
+            border: 1px solid #FF5657;
+            background-color: #FF5657;
         }
     }
 }
 
 table.wcpt-schedule {
+    color: #222222;
+
     @media screen and (max-width: 700px) {
         tr {
             padding-bottom: 10px;
@@ -118,7 +119,7 @@ table.wcpt-schedule {
         &:nth-child(1),
         &:nth-child(2),
         &:nth-child(4) {
-            border-right: 1px solid #dadada;
+            border-right: 1px solid #b3b3b3;
         }
         &.wcb-session-mittagspause,
         &.wcb-session-kuchenpause {
