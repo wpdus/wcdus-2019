@@ -659,14 +659,26 @@ table.sponsoring td:empty {
     display: flex;
     flex-wrap: wrap;
   }
-  .wcorg-sponsors > div h2 {
+  .wcorg-sponsors > div.wcorg-sponsor-level-gold h2:before {
+    border-color: #d1a054;
+  }
+  .wcorg-sponsors > div.wcorg-sponsor-level-silber h2:before {
+    border-color: #c4bfc4;
+  }
+  .wcorg-sponsors > div.wcorg-sponsor-level-bronze h2:before {
+    border-color: #a66840;
+  }
+  .wcorg-sponsors h2,
+  h2.sponsors-community {
     flex-basis: 100%;
     position: relative;
     margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: center;
   }
-  .wcorg-sponsors > div h2:after, .wcorg-sponsors > div h2:before {
+  .wcorg-sponsors h2:after, .wcorg-sponsors h2:before,
+  h2.sponsors-community:after,
+  h2.sponsors-community:before {
     content: '';
     position: absolute;
     top: 50%;
@@ -677,18 +689,10 @@ table.sponsoring td:empty {
     border-top: 4px solid #ededed;
     z-index: -1;
   }
-  .wcorg-sponsors > div h2:after {
-    width: 5em;
+  .wcorg-sponsors h2:after,
+  h2.sponsors-community:after {
+    width: 6em;
     border-color: white;
-  }
-  .wcorg-sponsors > div.wcorg-sponsor-level-gold h2:before {
-    border-color: #d1a054;
-  }
-  .wcorg-sponsors > div.wcorg-sponsor-level-silber h2:before {
-    border-color: #c4bfc4;
-  }
-  .wcorg-sponsors > div.wcorg-sponsor-level-bronze h2:before {
-    border-color: #a66840;
   }
 }
 
