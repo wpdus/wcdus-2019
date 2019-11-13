@@ -1139,3 +1139,26 @@ h2.widget-title {
     display: inline-block;
   }
 }
+
+.wordcamp-block.wordcamp-speakers {
+  padding: 0;
+}
+
+.wordcamp-block.wordcamp-speakers h3 {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+@media (max-width: 500px) {
+  .wordcamp-block.wordcamp-speakers h3 {
+    min-height: 4rem;
+  }
+}
+
+.wordcamp-block.wordcamp-sessions {
+  padding: 0;
+}
+
+.wordcamp-block.wordcamp-sessions > li {
+  margin-bottom: 5rem;
+}
