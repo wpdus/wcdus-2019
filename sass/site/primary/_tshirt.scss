@@ -1,0 +1,99 @@
+.post-slug-t-shirt {
+	.grunion-field-wrap + p {
+		margin-top: 0;
+		margin-bottom: 2rem;
+	}
+
+	table {
+		/**
+		 * Makes all columns equal width.
+		 * Then we override the first column to be only 10% width.
+		 * The other columns stay equally wide.
+		 */
+		table-layout: fixed;
+		width: 100%;
+
+		td {
+			padding: 10px;
+			text-align: center;
+			border-right: 1px solid #ccc;
+
+			&:first-child {
+				width: 15%;
+			}
+
+			&:last-child {
+				border-right: none;
+			}
+		}
+
+		tr:first-child td {
+			background-color: #ccc;
+			border-bottom: 1px solid #eee;
+			font-weight: bold;
+		}
+
+		tbody tr:nth-child(even) {
+			background-color: #eee;
+		}
+	}
+
+
+	/**
+	 * Small Screen Only
+	 */
+	@media (max-width: 750px) {
+		table {
+			display: flex;
+			overflow: hidden;
+			position: relative;
+
+			tbody {
+				display: flex;
+				position: relative;
+				overflow-x: auto;
+				overflow-y: hidden;
+				-webkit-overflow-scrolling: touch;
+				min-width: 100%;
+			}
+
+			tr {
+				display: flex;
+				flex-direction: column;
+				//min-width: min-content;
+				flex-shrink: 0;
+				position: relative;
+				z-index: -1;
+				width: 25%;
+			}
+
+			td {
+				border-right: 0;
+			}
+
+			tr:first-child td {
+				text-align: left;
+			}
+
+			tr:first-child td,
+			tr:first-child td:last-child {
+				border-right: 1px solid #eee;
+				text-align: right;
+			}
+
+			td, th {
+				border-bottom: 1px solid #ccc;
+
+				&:first-child {
+					width: auto;
+				}
+
+				&:last-child {
+					border-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+
