@@ -426,6 +426,47 @@ button:hover, button:focus,
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+.wcdus-orga.wp-block-table {
+  border-bottom: none;
+}
+
+.wcdus-orga.wp-block-table h2 {
+  margin-top: 1rem !important;
+}
+
+.wcdus-orga.wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
+  background-color: #fafafa;
+}
+
+.wcdus-orga.wp-block-table img {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .wcdus-orga.wp-block-table img {
+    margin-right: 7rem;
+  }
+}
+
+.wcdus-orga.wp-block-table td {
+  padding: 1rem 1rem 2rem 2rem !important;
+}
+
+.wcdus-orga.wp-block-table tr {
+  border-bottom: none;
+}
+
+.wcdus-orga-short {
+  font-size: 0.9em;
+  color: #333;
+  border-radius: 3px;
+  padding: 2px 5px;
+  margin: 5px 5px 5px 0;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  display: inline-block;
+}
+
 .page.page-one-column .entry-header,
 .twentyseventeen-front-page.page-one-column .entry-header,
 .archive.page-one-column:not(.has-sidebar) .page-header,

@@ -1,0 +1,32 @@
+.wcdus-orga.wp-block-table {
+	border-bottom: none;
+	h2 {
+		margin-top: 1rem !important;	//wird nicht übernommen
+	}	
+	&.is-style-stripes tbody tr:nth-child(2n+1) {
+		background-color: #fafafa;   //wird nicht übernommen
+	}
+	img {
+		margin-bottom: 1rem;
+		@media screen and (max-width: 500px) {   
+			margin-right: 7rem;
+		}
+	}
+	td {
+		padding: 1rem 1rem 2rem 2rem !important;
+	}
+	tr {
+		border-bottom: none;
+	}
+}
+
+.wcdus-orga-short {
+        font-size: 0.9em;
+        color: #333;
+        border-radius: 3px;
+        padding: 2px 5px;
+        margin: 5px 5px 5px 0;
+        border: 1px solid #ddd;
+        background-color: #ddd;
+        display: inline-block;
+    }
