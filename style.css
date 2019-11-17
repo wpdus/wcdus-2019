@@ -543,6 +543,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
   width: 100%;
 }
 
+.entry-content .speaker-avatar {
+  margin: 2rem 0 0;
+}
+
 .wcorg-organizer-description h4 {
   display: block;
   margin-top: 11px;
