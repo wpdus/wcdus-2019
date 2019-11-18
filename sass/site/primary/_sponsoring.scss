@@ -58,7 +58,7 @@ table.sponsoring {
 			}
 		}
 	}
-	
+
 	.wcorg-sponsor {
 		@media (min-width: 37.5em) {
 			display: flex;
@@ -84,30 +84,6 @@ table.sponsoring {
 		display: flex;
 		flex-wrap: wrap;
 
-		h2 {
-			flex-basis: 100%;
-			position: relative;
-			margin-top: 3rem;
-			margin-bottom: 2rem;
-			text-align: center;
-
-			&:after,
-			&:before {
-				content: '';
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				width: 100%;
-				-webkit-transform: translateX(-50%);
-				transform: translateX(-50%);
-				border-top: 4px solid #ededed;
-				z-index: -1;
-			}
-			&:after {
-				width: 5em;
-				border-color: white;
-			}
-		}
 		&.wcorg-sponsor-level-gold h2:before {
 			border-color: $sponsor-gold;
 		}
@@ -116,6 +92,32 @@ table.sponsoring {
 		}
 		&.wcorg-sponsor-level-bronze h2:before {
 			border-color: $sponsor-bronze;
+		}
+	}
+
+	.wcorg-sponsors h2,
+	h2.sponsors-community {
+		flex-basis: 100%;
+		position: relative;
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		text-align: center;
+
+		&:after,
+		&:before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100%;
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+			border-top: 4px solid #ededed;
+			z-index: -1;
+		}
+		&:after {
+			width: 6em;
+			border-color: white;
 		}
 	}
 }

@@ -426,6 +426,47 @@ button:hover, button:focus,
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+.wcdus-orga.wp-block-table {
+  border-bottom: none;
+}
+
+.wcdus-orga.wp-block-table h2 {
+  margin-top: 1rem !important;
+}
+
+.wcdus-orga.wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
+  background-color: #fafafa;
+}
+
+.wcdus-orga.wp-block-table img {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .wcdus-orga.wp-block-table img {
+    margin-right: 7rem;
+  }
+}
+
+.wcdus-orga.wp-block-table td {
+  padding: 1rem 1rem 2rem 2rem !important;
+}
+
+.wcdus-orga.wp-block-table tr {
+  border-bottom: none;
+}
+
+.wcdus-orga-short {
+  font-size: 0.9em;
+  color: #333;
+  border-radius: 3px;
+  padding: 2px 5px;
+  margin: 5px 5px 5px 0;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  display: inline-block;
+}
+
 .page.page-one-column .entry-header,
 .twentyseventeen-front-page.page-one-column .entry-header,
 .archive.page-one-column:not(.has-sidebar) .page-header,
@@ -500,6 +541,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .entry-content .block-full-width > img {
   max-width: none;
   width: 100%;
+}
+
+.entry-content .speaker-avatar {
+  margin: 2rem 0 0;
 }
 
 .wcorg-organizer-description h4 {
@@ -659,14 +704,26 @@ table.sponsoring td:empty {
     display: flex;
     flex-wrap: wrap;
   }
-  .wcorg-sponsors > div h2 {
+  .wcorg-sponsors > div.wcorg-sponsor-level-gold h2:before {
+    border-color: #d1a054;
+  }
+  .wcorg-sponsors > div.wcorg-sponsor-level-silber h2:before {
+    border-color: #c4bfc4;
+  }
+  .wcorg-sponsors > div.wcorg-sponsor-level-bronze h2:before {
+    border-color: #a66840;
+  }
+  .wcorg-sponsors h2,
+  h2.sponsors-community {
     flex-basis: 100%;
     position: relative;
     margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: center;
   }
-  .wcorg-sponsors > div h2:after, .wcorg-sponsors > div h2:before {
+  .wcorg-sponsors h2:after, .wcorg-sponsors h2:before,
+  h2.sponsors-community:after,
+  h2.sponsors-community:before {
     content: '';
     position: absolute;
     top: 50%;
@@ -677,18 +734,10 @@ table.sponsoring td:empty {
     border-top: 4px solid #ededed;
     z-index: -1;
   }
-  .wcorg-sponsors > div h2:after {
-    width: 5em;
+  .wcorg-sponsors h2:after,
+  h2.sponsors-community:after {
+    width: 6em;
     border-color: white;
-  }
-  .wcorg-sponsors > div.wcorg-sponsor-level-gold h2:before {
-    border-color: #d1a054;
-  }
-  .wcorg-sponsors > div.wcorg-sponsor-level-silber h2:before {
-    border-color: #c4bfc4;
-  }
-  .wcorg-sponsors > div.wcorg-sponsor-level-bronze h2:before {
-    border-color: #a66840;
   }
 }
 
@@ -757,26 +806,40 @@ table.sponsoring td:empty {
   }
 }
 
-.wcpt-session-type-session:after {
-  color: #fff;
+.wcpt-session-type-session.wcb-session-category-gutenberg:after {
+  content: "#gutenberg";
 }
 
-.wcpt-session-type-session.wcb-session-category-talk:after {
-  content: "#talk";
-  border: 1px solid #FF904D;
-  background-color: #FF904D;
+.wcpt-session-type-session.wcb-session-category-pagespeed:after {
+  content: "#pagespeed";
 }
 
-.wcpt-session-type-session.wcb-session-category-workshop:after {
-  content: "#workshop";
-  border: 1px solid #7FD957;
-  background-color: #7FD957;
+.wcpt-session-type-session.wcb-session-category-seo:after {
+  content: "#SEO";
 }
 
-.wcpt-session-type-session.wcb-session-category-podium:after {
-  content: "#podium";
-  border: 1px solid #FF5657;
-  background-color: #FF5657;
+.wcpt-session-type-session.wcb-session-category-e-commerce:after {
+  content: "#e-commerce";
+}
+
+.wcpt-session-type-session.wcb-session-category-datenschutz:after {
+  content: "#datenschutz";
+}
+
+.wcpt-session-type-session.wcb-session-category-dev:after {
+  content: "#dev";
+}
+
+.wcpt-session-type-session.wcb-session-category-content:after {
+  content: "#content";
+}
+
+.wcpt-session-type-session.wcb-session-category-business:after {
+  content: "#business";
+}
+
+.wcpt-session-type-session.wcb-session-category-design1:after {
+  content: "#design";
 }
 
 .wcb-session-cell-content a {
@@ -795,49 +858,37 @@ table.sponsoring td:empty {
   display: block;
 }
 
-.wcb-session-category-gutenberg .wcb-session-cell-content:after {
-  content: "#gutenberg";
+.wcb-session-cell-content:after {
+  color: #fff;
 }
 
-.wcb-session-category-pagespeed .wcb-session-cell-content:after {
-  content: "#pagespeed";
+.wcb-session-category-talk .wcb-session-cell-content:after {
+  content: "#talk";
+  border: 1px solid #FF904D;
+  background-color: #FF904D;
 }
 
-.wcb-session-category-seo .wcb-session-cell-content:after {
-  content: "#SEO";
+.wcb-session-category-workshop .wcb-session-cell-content:after {
+  content: "#workshop";
+  border: 1px solid #7FD957;
+  background-color: #7FD957;
 }
 
-.wcb-session-category-e-commerce .wcb-session-cell-content:after {
-  content: "#e-commerce";
-}
-
-.wcb-session-category-datenschutz .wcb-session-cell-content:after {
-  content: "#datenschutz";
-}
-
-.wcb-session-category-dev .wcb-session-cell-content:after {
-  content: "#dev";
-}
-
-.wcb-session-category-content .wcb-session-cell-content:after {
-  content: "#content";
-}
-
-.wcb-session-category-business .wcb-session-cell-content:after {
-  content: "#business";
-}
-
-.wcb-session-category-design1 .wcb-session-cell-content:after {
-  content: "#design";
+.wcb-session-category-podium .wcb-session-cell-content:after {
+  content: "#podium";
+  border: 1px solid #FF5657;
+  background-color: #FF5657;
 }
 
 table.wcpt-schedule {
+  color: #222222;
   font-family: "Roboto", sans-serif;
 }
 
 @media screen and (max-width: 700px) {
   table.wcpt-schedule tr {
     padding-bottom: 10px;
+    border: 1px solid #b3b3b3;
   }
 }
 
@@ -1022,7 +1073,7 @@ table.wcpt-schedule .wcpt-session-speakers:before {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -1048,7 +1099,7 @@ table.wcpt-schedule .wcpt-session-speakers:before {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 
@@ -1180,4 +1231,27 @@ h2.widget-title {
   #subscribe-submit {
     display: inline-block;
   }
+}
+
+.wordcamp-block.wordcamp-speakers {
+  padding: 0;
+}
+
+.wordcamp-block.wordcamp-speakers h3 {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+@media (max-width: 500px) {
+  .wordcamp-block.wordcamp-speakers h3 {
+    min-height: 4rem;
+  }
+}
+
+.wordcamp-block.wordcamp-sessions {
+  padding: 0;
+}
+
+.wordcamp-block.wordcamp-sessions > li {
+  margin-bottom: 5rem;
 }
