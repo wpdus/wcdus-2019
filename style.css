@@ -1066,6 +1066,45 @@ table.wcpt-schedule .wcpt-session-speakers:before {
   }
 }
 
+.wordcamp-sessions__time-location {
+  padding-top: 20px;
+}
+
+.wordcamp-sessions__categories {
+  color: transparent !important;
+}
+
+.wordcamp-sessions__category {
+  font-size: 0.9em;
+  color: #333;
+  border-radius: 3px;
+  padding: 2px 5px;
+  margin: 5px 5px 5px 0;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
+
+.wordcamp-sessions__category:before {
+  content: "#";
+}
+
+.wordcamp-sessions__category.slug-talk {
+  color: #fff;
+  border: 1px solid #FF904D;
+  background-color: #FF904D;
+}
+
+.wordcamp-sessions__category.slug-business {
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
+
+.wordcamp-sessions__category.slug-workshop {
+  color: #fff;
+  border: 1px solid #7FD957;
+  background-color: #7FD957;
+}
+
 /* Media */
 /*--------------------------------------------------------------
 ## Media
@@ -1073,7 +1112,7 @@ table.wcpt-schedule .wcpt-session-speakers:before {
 .custom-banner.wp-block-media-text {
   align-items: end;
   background-color: #ffcc00;
-  grid-template-areas: '. media-text-content .' '. media-text-media .';
+  grid-template-areas: '. media-text-content .' '. media-text-media .';
   grid-template-columns: minmax(1em, 1fr) minmax(1em, 1000px) minmax(1em, 1fr);
   height: auto;
   left: 50%;
@@ -1099,7 +1138,7 @@ table.wcpt-schedule .wcpt-session-speakers:before {
 
 @media screen and (max-width: 600px) {
   .custom-banner.wp-block-media-text.is-stacked-on-mobile {
-    grid-template-areas: 'media-text-content' 'media-text-media';
+    grid-template-areas: 'media-text-content' 'media-text-media';
   }
 }
 
