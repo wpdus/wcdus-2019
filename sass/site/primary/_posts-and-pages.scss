@@ -147,3 +147,7 @@ body.page-two-column #comments {
 	float: none;
 	width: 100%;
 }
+.comment-list, 
+.comment-list .children {
+	margin-left: 65px!important;
+}
